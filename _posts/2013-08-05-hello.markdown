@@ -12,8 +12,7 @@ ability to publish events which you can then subscribe to. For example, you can 
 (the example we used is to change stations following a button press), or tell it to emit data in response to other 
 stimuli (e.g detect programme boundaries or track boundaries and send information about them).
 
-[A convergence of ideas at an internet of things 
-hackday](http://planb.nicecupoftea.org/2013/04/16/archers-avoider/) at BBC R&D led Sean O'Halpin, Jasmine Cox, 
+[A convergence of ideas at an internet of things hackday](http://planb.nicecupoftea.org/2013/04/16/archers-avoider/) at BBC R&D led Sean O'Halpin, Jasmine Cox, 
 Nikolaos Tsipas and I to create the ['Archers Avoider'](https://github.com/radiodan/project/wiki/Archers-Avoider) 
 an application of Radiodan on a Raspberry Pi with a 'panic' button to be pressed when the Archers (or other 
 content you wanted to avoid) came on the radio. 
@@ -42,8 +41,7 @@ experiments on [github](https://github.com/radiodan) and [flickr](http://www.fli
 we thought it would be useful to have a blog to put some notes up and give the work some structure. Please do talk 
 to us if you are interested or would like to get involved.
 
-I'll finish with a picture of the latest version of the avoider, beautifully laser cut by Neil from [Bristol 
-Design Forge](http://bristoldesignforge.co.uk).
+I'll finish with a picture of the latest version of the avoider, beautifully laser cut by Neil from [Bristol Design Forge](http://bristoldesignforge.co.uk).
 
 <img src="/assets/archers_avoider_mk4.jpg" width="500" alt="Archers Avoider Mk4"/>
 
