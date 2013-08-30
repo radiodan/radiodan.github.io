@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Sprint"
+date:   2013-08-30 18:23:23
+author: libbymiller
+---
+
+As mentioned in our [IRFS 
+weeknotes](http://www.bbc.co.uk/rd/blog/2013/08/irfs-weeknotes-155) 
+we're half way through a two week sprint on Radiodan within IRFS in BBC 
+R&D. Radiodan is a possible platform we might be able to use in some 
+upcoming work on an EU project called Mediascape, and we have 
+a long-standing interests as a team in new forms of radio and 
+[RadioDNS](http://radiodns.org) and related technolgies, many of which 
+could be prototyped using Radiodan.
+
+The idea of the sprint is to stablise the [Radiodan 
+gem](https://github.com/pixelblend/radiodan) so that other people inside 
+and outside the BBC can pick it up and use it. This includes being able 
+to quickly get started with it on a RaspberryPi with a button. Dan and I 
+are also lucky enough to be doing a short talk at 
+[nextrad.io](http://nextrad.io) in early September, so we've been 
+thinking a lot about that too.
+
+Here's what we've been doing:
+
+* Improving the installation on a RaspberryPi, including handling wifi connectivity [as outlined here](https://radiodan.github.io/2013/08/07/networking.html). When you connect to the generated network it automatically pops up a web browser window for you to pick the newtrok you want to connect to. It can be a little slow but it's very nice.
+* Improving the Radiodan gem so it's easy(ier) to create new types of radio on top of it, including some bugfixes and a few requirements arising from [radio-democracy](https://github.com/libbymiller/radio-democracy) to do with playing MP3s
+* Improving the button handling code so it will be easier to add new hardware components and so that it doesn't use 100% of CPU (as my original code did). This has been a voyage of discovery and a source of huge annoyance for Andrew.
+* Investigating a messaging architecture to solve some of the messy threading issues
+* Confirming that it's ok to use the BBC's shoutcast streams. The proviso is that they shouldn't be relied on in the long-term or for support 
+* Taking lots of pictures and video - some of the pictures [are here](http://www.flickr.com/photos/nicecupoftea/sets/72157635298583038/)
+* Preparing for our nextrad.io presentation on 9th September
+* Battling rubbish SD cards and our own partial understanding of electronics (thanks TomN!)
+
+It's early days still but there's now a working demoable avoider in the 
+office at least, and we're feeling like we can start to build more 
+applications on top of it.
+
+I'll leave you with a picture from our presentation - some wrong radios:
+
+<img src="/assets/wrong_radios.jpg" some drawings of wrong radios" width="500" />
