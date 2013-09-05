@@ -1,3 +1,4 @@
-name: Radiodan Blog
+name: Radiodan
 markdown: redcarpet
 pygments: true
+exclude: [Gemfile*]

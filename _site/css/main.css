@@ -8,6 +8,7 @@
 * {
   margin: 0;
   padding: 0;
+  text-rendering: optimizeLegibility;
 }
 
 html, body { height: 100%; }
@@ -55,39 +56,54 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+.twitter-follow-button {
+  position: absolute;
+  left: -80px;
+}
+
+a.twitter-follow-button {
+  display: none;
+}
+
 .site {
+  position: relative;
   font-size: 115%;
   text-align: justify;
   width: 42em;
-  margin: 3em auto 2em;
+  margin: 2em auto;
   line-height: 1.5em;
 }
 
+.site .header {
+  font-size: 2em;
+  font-weight: normal;
+}
+
 .site .header a {
-  font-weight: bold;
   text-decoration: none;
 }
 
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
+  font-weight: bold;
 }
 
 .site .header h1.title a {
-  color: #a00;
+  color: #ABE008;
 }
 
 .site .header h1.title a:hover {
-  color: #000;
+  color: #eee;
 }
 
 .site .header a.extra {
-  color: #aaa;
+  color: #ddd;
   margin-left: 1em;
 }
 
 .site .header a.extra:hover {
-  color: #000;
+  color: #eee;
 }
 
 .site .meta {
@@ -119,6 +135,51 @@ ul.posts span {
 
 .site .footer .rss img {
   border: 0;
+}
+
+#home .site .header {
+  font-size: 2em;
+}
+
+#home .site .extra {
+  display: none;
+}
+
+/*
+  Masthead
+*/
+.masthead {
+  background-color: #333;
+}
+
+.masthead .site {
+  margin-top: 0;
+  padding-top: 2em;
+}
+
+.masthead .hero {
+  display: none;
+}
+
+.masthead .hero {
+  padding: 0 0 0.5em 0;
+  color: #ddd;
+  font-size: 4em;
+  line-height: 1;
+  text-align: left;
+}
+
+#home .masthead .hero {
+  display: block;
+}
+
+/*
+  info update form
+*/
+.info-update-form {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #CCC;
 }
 
 /*****************************************************************************/
