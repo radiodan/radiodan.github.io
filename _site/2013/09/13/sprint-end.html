@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Sprint end</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+
+        <div class="container">
+          <div class="site">
+            <div class="header">
+              <h1 class="title"><a href="/">Radiodan Blog</a></h1>
+              <a class="extra" href="/">home</a>
+            </div>
+
+                <h2>Sprint end</h2>
+<p class="meta">13 Sep 2013 by <a href="http://github.com/libbymiller">libbymiller</a></p>
+
+<div class="post">
+<p>Our two-week sprint on Radiodan ended last week. We didn&#39;t really get as far as we&#39;d hoped, though that was 
+partly us getting to understand the sort of velocity we have doing these kinds of projects. Which is to say, 
+compared with pure software, things seem to take a looong time.</p>
+
+<p>However we have done a bunch of interesting things, and particularly with respect to wifi configuration, Andrew and Chris have a very nice workflow going, which you can see in action in this video:</p>
+
+<p>http://vimeo.com/73633646</p>
+
+<p>Our original approach was this:</p>
+
+<ul>
+<li>if the radiodan can&#39;t find a wifi network it knows about</li>
+<li>create a point to point network@@</li>
+<li>use your laptop or phone to connect to that network</li>
+<li>go to any webpage on that device. You should be edirected to a config page for the radiodan</li>
+<li>enter the network details</li>
+<li>click to reboot the radiodan</li>
+</ul>
+
+<p>What Andrew and Chris discovered was that this solution was not very robust - quite often the network didn&#39;t seem to be created, and when it was, it was hard to connect to and often didn&#39;t work.</p>
+
+<p>It&#39;s hard to know what exactly the problem was - at work there are a very large number of wifi networks, for 
+example, so that may have been at least part of the issue.</p>
+
+<p>After discussing the issue with TomN and others, Andrew developed a better solution - which is that you turn the 
+Pi into a wifi router. This makes for a more robust network to connect to (usually), although it has the 
+disadvantage that you can&#39;t both scan for networks and be an access point - so the code scans first and then 
+becomes an access point, lengthening startup time. Andrew also implemented the nice &#39;captive portal&#39; feature of 
+the kind you get in hotels and similar, where as soon as you connect to the network a web page pops up requesting 
+information.</p>
+
+<p>Dan and I spent a lot of last week preparing for our nextrad.io presentation, which was a distraction in some 
+ways, but also helped us get our thoughts in order about the overall goals of the project - essentially - make it 
+easy for us and then others to quickly prototype the behaviours and appearance of connected radios. The 
+conference was good fun too - it was very nice to meet and hear from people in the wider radio industry. 
+Nextrad.io video all their presentations so when it&#39;s ready we&#39;ll link to it here - the slides don&#39;t mean much on 
+their own as they are mostly pictures.</p>
+
+<p>For the presentation, Dan put together this (very funny I think) <a href="https://vimeo.com/73576108">12 second video of the Archers 
+Avoider</a>, which you should definitely watch. Radiodan is not the same as the Archers 
+Avoider though, but just one of many applications of it.</p>
+
+<p>I&#39;ve also been preaparing for my class at the <a href="http://xmlsummerschool.com/curriculum-2013/trends-and-transients-2013/">XML Summer School next 
+week</a>, talking about 
+<a href="https://github.com/libbymiller/radio-democracy">radio-democracy</a> and the implmentation of <a href="@@">BBC R&amp;D&#39;s Universal 
+Control API</a> in it.</p>
+
+<p>This week Dan also created a non-physical web-only application of Radiodan (a erm, rApp?) using Twillio, which is 
+a web API interface to SMS and calling. His request show rApp allows you to send an SMS and request an artist or 
+song from his audio collection, which will then be queued up and play (on his machine). THis necessitated various 
+improvements to the Radiodan code including lays nothing ok; improved notifications, searching for music, adding 
+music without using mpc.</p>
+
+<p>@@
+3. experimented with an interrupt-based hardware interfaces
+-&gt;event machine version - fixed polling mechanism 
+-&gt;interrupt needs making into a proper bit of code</p>
+
+<ol>
+<li>started researching production methods for tweetowl v2</li>
+</ol>
+
+<p><img src="" some drawings of wrong radios" width="500" /></p>
+
+</div>
+
+
+            <div class="footer">
+            </div>
+          </div>
+        </div> <!-- /container -->
+
+    </body>
+</html>
