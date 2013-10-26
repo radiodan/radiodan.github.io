@@ -29,7 +29,7 @@ up with requirements for Radiodan. At this stage, the more features the better. 
 listening to [In Our Time Science archive](http://www.bbc.co.uk/podcasts/series/iots/all) a lot 
 recently, and I want a kind of [Cambrian 
 Explosion](http://en.wikipedia.org/wiki/Cambrian_explosion) of ideas for radios 
-[mp3](http://downloads.bbc.co.uk/podcasts/radio4/iots/iots_20050217-0900a.mp3).
+([mp3](http://downloads.bbc.co.uk/podcasts/radio4/iots/iots_20050217-0900a.mp3)).
 
 Various conversations with Richard at the Hackspace and AndrewN of team Radiodan suggested that 
 some people would be less keen on drawing these things themselves, and that some sort of a 
