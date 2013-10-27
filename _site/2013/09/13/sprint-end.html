@@ -13,15 +13,27 @@
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
-    <body>
+    <body id="post">
+        <a href="https://github.com/radiodan">
+          <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
+        </a>
+        <div class="container masthead">
+            <div class="site">
+                <div class="header">
+                  <h1 class="title"><a href="/">Radiodan</a></h1>
+                  <a class="extra" href="/">home</a>
+
+                  <a href="https://twitter.com/teamradiodan" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-dnt="true">Follow @teamradiodan</a>
+                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </div>
+                <div class="hero">
+                  An (experimental) homebrew, flexible, open source, IP radio
+                </div>
+            </div>
+        </div>
 
         <div class="container">
           <div class="site">
-            <div class="header">
-              <h1 class="title"><a href="/">Radiodan Blog</a></h1>
-              <a class="extra" href="/">home</a>
-            </div>
-
                 <h2>Sprint end</h2>
 <p class="meta">13 Sep 2013 by <a href="http://github.com/libbymiller">libbymiller</a></p>
 
@@ -30,15 +42,13 @@
 partly us getting to understand the sort of velocity we have doing these kinds of projects. Which is to say, 
 compared with pure software, things seem to take a looong time.</p>
 
-<p>However we have done a bunch of interesting things, and particularly with respect to wifi configuration, Andrew and Chris have a very nice workflow going, which you can see in action in this video:</p>
-
-<p>http://vimeo.com/73633646</p>
+<p>However we have done a bunch of interesting things, and particularly with respect to wifi configuration, Andrew and Chris have a very nice workflow going, which you can see in action in <a href="(http://vimeo.com/73633646">this video</a>.</p>
 
 <p>Our original approach was this:</p>
 
 <ul>
 <li>if the radiodan can&#39;t find a wifi network it knows about</li>
-<li>create a point to point network@@</li>
+<li>create a point to point network</li>
 <li>use your laptop or phone to connect to that network</li>
 <li>go to any webpage on that device. You should be edirected to a config page for the radiodan</li>
 <li>enter the network details</li>
@@ -70,33 +80,35 @@ Avoider though, but just one of many applications of it.</p>
 
 <p>I&#39;ve also been preaparing for my class at the <a href="http://xmlsummerschool.com/curriculum-2013/trends-and-transients-2013/">XML Summer School next 
 week</a>, talking about 
-<a href="https://github.com/libbymiller/radio-democracy">radio-democracy</a> and the implmentation of <a href="@@">BBC R&amp;D&#39;s Universal 
+<a href="https://github.com/libbymiller/radio-democracy">radio-democracy</a> and the experimental and partial implmentation of <a href="http://www.bbc.co.uk/blogs/researchanddevelopment/2011/02/universal-control.shtml">BBC R&amp;D&#39;s Universal 
 Control API</a> in it.</p>
 
-<p>This week Dan also created a non-physical web-only application of Radiodan (a erm, rApp?) using Twillio, which is 
-a web API interface to SMS and calling. His request show rApp allows you to send an SMS and request an artist or 
-song from his audio collection, which will then be queued up and play (on his machine). THis necessitated various 
-improvements to the Radiodan code including lays nothing ok; improved notifications, searching for music, adding 
-music without using mpc.</p>
+<p>This week Dan also created a non-physical web-only application of Radiodan (a erm, rApp?) using 
+Twillio, which is a web API interface to SMS and calling. His request show rApp allows you to 
+send an SMS and request an artist or song from his audio collection, which will then be queued 
+up and play (on his machine). This necessitated various improvements to the Radiodan code 
+including lays nothing ok; improved notifications, searching for music, adding music without 
+using mpc.</p>
 
-<p>@@
-3. experimented with an interrupt-based hardware interfaces
--&gt;event machine version - fixed polling mechanism 
--&gt;interrupt needs making into a proper bit of code</p>
-
-<ol>
-<li>started researching production methods for tweetowl v2</li>
-</ol>
-
-<p><img src="" some drawings of wrong radios" width="500" /></p>
+<p>Andrew and I experimented with an interrupt-based hardware interfaces - we created an event 
+machine version - but the interupt needs making into a proper bit of code.</p>
 
 </div>
-
 
             <div class="footer">
             </div>
           </div>
         </div> <!-- /container -->
 
+        <!-- Anlytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-19303444-8', 'radiodan.github.io');
+          ga('send', 'pageview');
+        </script>
     </body>
 </html>

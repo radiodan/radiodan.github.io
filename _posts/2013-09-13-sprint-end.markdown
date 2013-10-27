@@ -9,14 +9,12 @@ Our two-week sprint on Radiodan ended last week. We didn't really get as far as 
 partly us getting to understand the sort of velocity we have doing these kinds of projects. Which is to say, 
 compared with pure software, things seem to take a looong time.
 
-However we have done a bunch of interesting things, and particularly with respect to wifi configuration, Andrew and Chris have a very nice workflow going, which you can see in action in this video:
-
-http://vimeo.com/73633646
+However we have done a bunch of interesting things, and particularly with respect to wifi configuration, Andrew and Chris have a very nice workflow going, which you can see in action in [this video]( (http://vimeo.com/73633646).
 
 Our original approach was this:
 
 * if the radiodan can't find a wifi network it knows about
-* create a point to point network@@
+* create a point to point network
 * use your laptop or phone to connect to that network
 * go to any webpage on that device. You should be edirected to a config page for the radiodan
 * enter the network details
@@ -47,21 +45,15 @@ Avoider though, but just one of many applications of it.
 
 I've also been preaparing for my class at the [XML Summer School next 
 week](http://xmlsummerschool.com/curriculum-2013/trends-and-transients-2013/), talking about 
-[radio-democracy](https://github.com/libbymiller/radio-democracy) and the implmentation of [BBC R&D's Universal 
-Control API](@@) in it.
+[radio-democracy](https://github.com/libbymiller/radio-democracy) and the experimental and partial implmentation of [BBC R&D's Universal 
+Control API](http://www.bbc.co.uk/blogs/researchanddevelopment/2011/02/universal-control.shtml) in it.
 
-This week Dan also created a non-physical web-only application of Radiodan (a erm, rApp?) using Twillio, which is 
-a web API interface to SMS and calling. His request show rApp allows you to send an SMS and request an artist or 
-song from his audio collection, which will then be queued up and play (on his machine). THis necessitated various 
-improvements to the Radiodan code including lays nothing ok; improved notifications, searching for music, adding 
-music without using mpc.
+This week Dan also created a non-physical web-only application of Radiodan (a erm, rApp?) using 
+Twillio, which is a web API interface to SMS and calling. His request show rApp allows you to 
+send an SMS and request an artist or song from his audio collection, which will then be queued 
+up and play (on his machine). This necessitated various improvements to the Radiodan code 
+including lays nothing ok; improved notifications, searching for music, adding music without 
+using mpc.
 
-
-@@
-3. experimented with an interrupt-based hardware interfaces
-->event machine version - fixed polling mechanism 
-->interrupt needs making into a proper bit of code
-
-7. started researching production methods for tweetowl v2
-
-<img src="" some drawings of wrong radios" width="500" />
+Andrew and I experimented with an interrupt-based hardware interfaces - we created an event 
+machine version - but the interupt needs making into a proper bit of code.
