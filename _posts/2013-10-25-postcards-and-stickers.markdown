@@ -42,13 +42,19 @@ pool](http://www.flickr.com/groups/2386878@N23/). Here's one of my favourites:
 
 <img src="/assets/robin.jpg" "Robin's radio" width="500" />
 
+<i>Robin / Philip: always filter this out; mute when phone rings; fast forward button; dammit I missed that; kill button on a remote and then a backup one in case you don't make it there in time.</i>
+
 and another:
 
 <img src="/assets/matt.jpg" "Matt's radio" width="500" />
 
+<i>Matt: hit the button and you get something from In Our Time on the subject (there probably is something!)</i>
+
 and another:
 
 <img src="/assets/psd.jpg" "Paul's radio" width="500" />
+
+<i>Paul said: "My radio is mostly fine - my only interaction is when John Humphries comes on - so this allows you to give him a stroke when he's nice but give him an electric shock when e.g. he talks about science"</i>
 
 I've since run a similar event at the MediaScape project kickoff meeting, with equally 
 interesting results.
