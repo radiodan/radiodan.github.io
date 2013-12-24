@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Release</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body id="post">
+        <a href="https://github.com/radiodan">
+          <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub">
+        </a>
+        <div class="container masthead">
+            <div class="site">
+                <div class="header">
+                  <h1 class="title"><a href="/">Radiodan</a></h1>
+                  <a class="extra" href="/">home</a>
+
+                  <a href="https://twitter.com/teamradiodan" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false" data-dnt="true">Follow @teamradiodan</a>
+                  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                </div>
+                <div class="hero">
+                  An (experimental) homebrew, flexible, open source, IP radio
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+          <div class="site">
+                <h2>Release</h2>
+<p class="meta">24 Dec 2013 by <a href="http://github.com/libbymiller">libbymiller</a></p>
+
+<div class="post">
+<p>Radiodan is ready for release. Well, like any release, I feel like it&#39;s 
+not ready - but sometimes you just have to get it out of the door, even if it&#39;s Christmas eve.</p>
+
+<p>Thanks to Andrew&#39;s work on the <a href="https://github.com/radiodan/radiodan_example">radiodan example 
+app</a> and <a href="https://github.com/radiodan/radiodan_example_physical_interface">physical 
+interface</a>, 
+and Dan&#39;s work on the <a href="https://github.com/radiodan/radiodan">Radiodan core 
+library</a> you can now:</p>
+
+<ul>
+<li>download a <a href="http://dev.notu.be/2013/12/radiodan/radiodan2.zip">2G SD</a> (580 MB zipped) minimal Raspian-plus-Radiodan card image</li>
+<li><a href="http://elinux.org/RPi_Easy_SD_Card_Setup">put it on an SD card in the usual way</a></li>
+<li>put the card in the Pi, add Ethernet and a speaker, and plug it in</li>
+</ul>
+
+<p>Then you can:</p>
+
+<ul>
+<li>listen to BBC radio, controlled via <a href="http://radiodan.local:3000">web page</a> as long as you are on the same network</li>
+<li>avoid tracks and programmes</li>
+<li>optionally you can also add some <a href="https://github.com/radiodan/radiodan_example_physical_interface/blob/master/doc/wiring.png">buttons and dials</a> and <a href="https://github.com/radiodan/project/blob/master/docs/box_design.markdown">a box</a></li>
+</ul>
+
+<p>If you want to make it wifi enabled:</p>
+
+<ul>
+<li>plug a USB wifi with RT5370 chipset, into your Pi and reboot</li>
+<li><a href="https://github.com/radiodan/cold_start/issues/5">optionally: make a cup of tea</a></li>
+<li>connect to its wifi (&quot;radiodan_configuration&quot;)</li>
+<li>go to any webpage (or wait for the captive portal, if you are on a Mac) and tell it your wifi password</li>
+<li>reboot</li>
+</ul>
+
+<p>More detailed step by step instructions are 
+<a href="https://github.com/radiodan/project/blob/master/docs/getting_started.markdown">here</a>.</p>
+
+<p>Be warned that is alpha software. However, if anyone does try it, we&#39;d 
+really like to hear any comments you have, good or bad, and I&#39;ll be 
+around on <a href="https://twitter.com/libbymiller">@libbymiller</a> or 
+libby@nicecupoftea.org if you have any questions.</p>
+
+<p>We&#39;d like to thank Nick Humfrey for all his help with the metadata 
+aspects of it.</p>
+
+<p>Our experience writing this has given us ideas about how to do it 
+better, so in the next few months there will be a Radiodan 2 with a 
+slightly different architecture and probably using the excellent 
+<a href="http://www.raspberrypi.org/archives/4100">NOOBS</a></p>
+
+<p>As ever, we are working in public - you can see all our code <a href="https://github.com/radiodan">on 
+github</a>, and there are various documents 
+<a href="http://radiodan.github.io">on this blog</a>.</p>
+
+</div>
+
+            <div class="footer">
+            </div>
+          </div>
+        </div> <!-- /container -->
+
+        <!-- Anlytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-19303444-8', 'radiodan.github.io');
+          ga('send', 'pageview');
+        </script>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Release"
+date:   2013-12-24 10:49:47
+author: libbymiller
+---
+
+Radiodan is ready for release. Well, like any release, I feel like it's 
+not ready - but sometimes you just have to get it out of the door, even if it's Christmas eve.
+ 
+Thanks to Andrew's work on the [radiodan example 
+app](https://github.com/radiodan/radiodan_example) and [physical 
+interface](https://github.com/radiodan/radiodan_example_physical_interface), 
+and Dan's work on the [Radiodan core 
+library](https://github.com/radiodan/radiodan) you can now:
+
+* download a [2G SD](http://dev.notu.be/2013/12/radiodan/radiodan2.zip) (580 MB zipped) minimal Raspian-plus-Radiodan card image
+* [put it on an SD card in the usual way](http://elinux.org/RPi_Easy_SD_Card_Setup)
+* put the card in the Pi, add Ethernet and a speaker, and plug it in
+
+Then you can:
+
+* listen to BBC radio, controlled via [web page](http://radiodan.local:3000) as long as you are on the same network
+* avoid tracks and programmes
+* optionally you can also add some [buttons and dials](https://github.com/radiodan/radiodan_example_physical_interface/blob/master/doc/wiring.png) and [a box](https://github.com/radiodan/project/blob/master/docs/box_design.markdown)
+
+If you want to make it wifi enabled:
+
+* plug a USB wifi with RT5370 chipset, into your Pi and reboot
+* [optionally: make a cup of tea](https://github.com/radiodan/cold_start/issues/5)
+* connect to its wifi ("radiodan_configuration")
+* go to any webpage (or wait for the captive portal, if you are on a Mac) and tell it your wifi password
+* reboot
+
+More detailed step by step instructions are 
+[here](https://github.com/radiodan/project/blob/master/docs/getting_started.markdown).
+
+Be warned that is alpha software. However, if anyone does try it, we'd 
+really like to hear any comments you have, good or bad, and I'll be 
+around on [@libbymiller](https://twitter.com/libbymiller) or 
+libby@nicecupoftea.org if you have any questions.
+
+We'd like to thank Nick Humfrey for all his help with the metadata 
+aspects of it.
+
+Our experience writing this has given us ideas about how to do it 
+better, so in the next few months there will be a Radiodan 2 with a 
+slightly different architecture and probably using the excellent 
+[NOOBS](http://www.raspberrypi.org/archives/4100)
+
+As ever, we are working in public - you can see all our code [on 
+github](https://github.com/radiodan), and there are various documents 
+[on this blog](http://radiodan.github.io).
+
+ 
