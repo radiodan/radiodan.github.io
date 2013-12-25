@@ -16,6 +16,7 @@ library](https://github.com/radiodan/radiodan) you can now:
 
 * download a [2G SD](http://dev.notu.be/2013/12/radiodan/radiodan2.zip) (580 MB zipped) minimal Raspian-plus-Radiodan card image
 * [put it on an SD card in the usual way](http://elinux.org/RPi_Easy_SD_Card_Setup)
+* or - try the experimental [Radiodan-only NOOBS installation](http://dev.notu.be/2013/12/radiodan/NOOBS_v1_3_2-radiodan-only.zip) (360MB zipped) and drag and drop it onto a formated SD card
 * put the card in the Pi, add Ethernet and a speaker, and plug it in
 
 Then you can:
