@@ -7,7 +7,7 @@ author:
   github: andrewn
 ---
 
-After finishing up Radiodan v1, and just in time for Christmas, Dan and I got together to have a Radiodan v1 retrospective. We wanted to get an idea of what went well, what could have been better and what we'd do differently. This will help us plan Radiodan v2.
+After finishing up Radiodan v1, and just in time for Christmas, Dan and I got together to have a retrospective on the first part of the project from a technical perspective. We wanted to get an idea of what went well, what could have been better and what we'd do differently. This will help us plan Radiodan v2.
 
 ## Good
 
