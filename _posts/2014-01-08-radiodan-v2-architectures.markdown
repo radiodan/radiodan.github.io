@@ -3,8 +3,12 @@ layout: post
 title:  "Radiodan v2 Architectures"
 date:   2014-01-08 18:26:00
 author:
-  name: Andrew Nicolaou
-  github: andrewn
+  -
+    name: Andrew Nicolaou
+    github: andrewn
+  -
+    name: Dan Nuttall
+    github: pixelblend
 ---
 
 We're starting work on Radiodan v2, hot off the back of our [learnings from v1](/2014/01/08/radiodan-v1-retrospective.html).
