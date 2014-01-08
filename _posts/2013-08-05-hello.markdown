@@ -2,42 +2,44 @@
 layout: post
 title:  "Hello"
 date:   2013-08-05 11:21:19
-author: libbymiller
+author:
+  name: Libby Miller
+  github: libbymiller
 ---
 
-Radiodan is currently a small open source [Ruby gem](https://github.com/pixelblend/radiodan) developed by Dan 
-Nuttall that allows you to play BBC Radio Streams and other audio sources using MPD. Its usefulness lies in the 
-ability to publish events which you can then subscribe to. For example, you can tell it to react to certain inputs 
-(the example we used is to change stations following a button press), or tell it to emit data in response to other 
+Radiodan is currently a small open source [Ruby gem](https://github.com/pixelblend/radiodan) developed by Dan
+Nuttall that allows you to play BBC Radio Streams and other audio sources using MPD. Its usefulness lies in the
+ability to publish events which you can then subscribe to. For example, you can tell it to react to certain inputs
+(the example we used is to change stations following a button press), or tell it to emit data in response to other
 stimuli (e.g detect programme boundaries or track boundaries and send information about them).
 
-[A convergence of ideas at an internet of things hackday](http://planb.nicecupoftea.org/2013/04/16/archers-avoider/) at BBC R&D led Sean O'Halpin, Jasmine Cox, 
-Nikolaos Tsipas and I to create the ['Archers Avoider'](https://github.com/radiodan/project/wiki/Archers-Avoider) 
-an application of Radiodan on a Raspberry Pi with a 'panic' button to be pressed when the Archers (or other 
-content you wanted to avoid) came on the radio. 
+[A convergence of ideas at an internet of things hackday](http://planb.nicecupoftea.org/2013/04/16/archers-avoider/) at BBC R&D led Sean O'Halpin, Jasmine Cox,
+Nikolaos Tsipas and I to create the ['Archers Avoider'](https://github.com/radiodan/project/wiki/Archers-Avoider)
+an application of Radiodan on a Raspberry Pi with a 'panic' button to be pressed when the Archers (or other
+content you wanted to avoid) came on the radio.
 
-You may well ask - why not simply turn off the radio? or, since the BBC publishes its schedule information, the 
-Archers Avoider could simply never play the Archers (or any programme you don't like) again, and indeed this is 
+You may well ask - why not simply turn off the radio? or, since the BBC publishes its schedule information, the
+Archers Avoider could simply never play the Archers (or any programme you don't like) again, and indeed this is
 what [Richard Sewell's](http://www.jarkman.co.uk) concept of 'Not This Now' would do:
 
 <img src="/assets/not_this_now.jpg" width="500" alt="Not This Now"/>
 
-The answer lies in the way toys like these generate ideas. People listen to the radio typically while they are doing 
-something else such as working, driving, cooking - and they don't tend to interact with the physical radio much 
-once it's on - they tend not to change station for example. Making the avoider got us thinking: the fact that 
-people don't tend to change radio station probably masks irritation about some aspects of their listening, where 
-they are not sufficiently annoyed to change channel or switch the radio off, but they are not enjoying listening. 
-What, then, if they could make their own radio? What would it do? What would it look like? What if we could make a 
+The answer lies in the way toys like these generate ideas. People listen to the radio typically while they are doing
+something else such as working, driving, cooking - and they don't tend to interact with the physical radio much
+once it's on - they tend not to change station for example. Making the avoider got us thinking: the fact that
+people don't tend to change radio station probably masks irritation about some aspects of their listening, where
+they are not sufficiently annoyed to change channel or switch the radio off, but they are not enjoying listening.
+What, then, if they could make their own radio? What would it do? What would it look like? What if we could make a
 radio that people of some technical ability could easily adapt to what they wanted it to do?
 
-So that's our current project: **A connected, physical IP radio, which anyone with basic web-programming skills 
-can adapt to make interesting applications and interfaces**. 
+So that's our current project: **A connected, physical IP radio, which anyone with basic web-programming skills
+can adapt to make interesting applications and interfaces**.
 
-Dan Nuttall, Andrew Nicolaou, Chris Lowis and I have been working on Radiodan and applications of it in our 10% 
-time at IRFS at [BBC R&D](http://www.bbc.co.uk/rd/). I've also had some great discussions about possible 
-applications of it at the Bristol Hackspace with Richard Sewell and Anton Bowers. You can see some of our code and 
-experiments on [github](https://github.com/radiodan) and [flickr](http://www.flickr.com/search/?q=radiodan), but 
-we thought it would be useful to have a blog to put some notes up and give the work some structure. Please do talk 
+Dan Nuttall, Andrew Nicolaou, Chris Lowis and I have been working on Radiodan and applications of it in our 10%
+time at IRFS at [BBC R&D](http://www.bbc.co.uk/rd/). I've also had some great discussions about possible
+applications of it at the Bristol Hackspace with Richard Sewell and Anton Bowers. You can see some of our code and
+experiments on [github](https://github.com/radiodan) and [flickr](http://www.flickr.com/search/?q=radiodan), but
+we thought it would be useful to have a blog to put some notes up and give the work some structure. Please do talk
 to us if you are interested or would like to get involved.
 
 I'll finish with a picture of the latest version of the avoider, beautifully laser cut by Neil from [Bristol Design Forge](http://bristoldesignforge.co.uk).

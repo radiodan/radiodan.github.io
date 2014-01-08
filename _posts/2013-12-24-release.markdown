@@ -2,16 +2,18 @@
 layout: post
 title:  "Release"
 date:   2013-12-24 10:49:47
-author: libbymiller
+author:
+  name: Libby Miller
+  github: libbymiller
 ---
 
-Radiodan is ready for release. Well, like any release, I feel like it's 
+Radiodan is ready for release. Well, like any release, I feel like it's
 not ready - but sometimes you just have to get it out of the door, even if it's Christmas eve.
- 
-Thanks to Andrew's work on the [radiodan example 
-app](https://github.com/radiodan/radiodan_example) and [physical 
-interface](https://github.com/radiodan/radiodan_example_physical_interface), 
-and Dan's work on the [Radiodan core 
+
+Thanks to Andrew's work on the [radiodan example
+app](https://github.com/radiodan/radiodan_example) and [physical
+interface](https://github.com/radiodan/radiodan_example_physical_interface),
+and Dan's work on the [Radiodan core
 library](https://github.com/radiodan/radiodan) you can now:
 
 * download a [2G SD](http://dev.notu.be/2013/12/radiodan/radiodan2.zip) (580 MB zipped) minimal Raspian-plus-Radiodan card image
@@ -33,24 +35,24 @@ If you want to make it wifi enabled:
 * go to any webpage (or wait for the captive portal, if you are on a Mac) and tell it your wifi password
 * reboot
 
-More detailed step by step instructions are 
+More detailed step by step instructions are
 [here](https://github.com/radiodan/project/blob/master/docs/getting_started.markdown).
 
-Be warned that is alpha software. However, if anyone does try it, we'd 
-really like to hear any comments you have, good or bad, and I'll be 
-around on [@libbymiller](https://twitter.com/libbymiller) or 
+Be warned that is alpha software. However, if anyone does try it, we'd
+really like to hear any comments you have, good or bad, and I'll be
+around on [@libbymiller](https://twitter.com/libbymiller) or
 libby@nicecupoftea.org if you have any questions.
 
-We'd like to thank Nick Humfrey for all his help with the metadata 
+We'd like to thank Nick Humfrey for all his help with the metadata
 aspects of it.
 
-Our experience writing this has given us ideas about how to do it 
-better, so in the next few months there will be a Radiodan 2 with a 
-slightly different architecture and probably using the excellent 
+Our experience writing this has given us ideas about how to do it
+better, so in the next few months there will be a Radiodan 2 with a
+slightly different architecture and probably using the excellent
 [NOOBS](http://www.raspberrypi.org/archives/4100)
 
-As ever, we are working in public - you can see all our code [on 
-github](https://github.com/radiodan), and there are various documents 
+As ever, we are working in public - you can see all our code [on
+github](https://github.com/radiodan), and there are various documents
 [on this blog](http://radiodan.github.io).
 
- 
+

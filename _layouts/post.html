@@ -3,7 +3,12 @@ layout: default
 type: post
 ---
 <h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }} by <a href="http://github.com/{{ page.author }}">{{ page.author }}</a></p>
+<p class="meta">{{ page.date | date_to_string }} by
+{% if page.author.name and page.author.github %}
+  <a href="http://github.com/{{ page.author.github }}">{{ page.author.name }}</a></p>
+{% else %}
+  {{ page.author }}
+{% endif %}
 
 <div class="post">
 {{ content }}

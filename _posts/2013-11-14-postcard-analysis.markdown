@@ -1,5 +1,5 @@
 ---
-layout: post_no_github
+layout: post
 title:  "Postcard Analysis"
 date:   2013-11-14 15:06:23
 author: Andrew Wood
@@ -7,7 +7,7 @@ author: Andrew Wood
 
 This post is written by <a href="http://www.bbc.co.uk/rd/people/andrew-wood">Andrew Wood</a>, who is a designer at IRFS in <a href="http://www.bbc.co.uk/rd/">BBC R&D</a>.
 
-Myself and Tim Broom spent some time this week analysing the RadioDan postcards. Our aim was to 
+Myself and Tim Broom spent some time this week analysing the RadioDan postcards. Our aim was to
 document all the ideas from the previous two workshops in Oxford and San Sebastián.
 
 Libby's <a href="http://www.flickr.com/groups/2386878@N23/">Flickr documentation<a/> also proved valuable as most photos contained a synopsis of each idea.
@@ -19,11 +19,11 @@ We mapped the ideas across 2 axes:
 <li>Feasibility was measured horizontally with the most feasible ideas placed to the left.</li>
 </ul>
 
-Using good old post-its we captured the idea and judged where it should be placed on the axes. 
-If the idea came up again the post-it received a dot – increasing its popularity and thus moving 
+Using good old post-its we captured the idea and judged where it should be placed on the axes.
+If the idea came up again the post-it received a dot – increasing its popularity and thus moving
 it up the vertical / popularity axes.
 
-Having captured so many great ideas we now had a wall full of post-its – To make better sense of 
+Having captured so many great ideas we now had a wall full of post-its – To make better sense of
 this information we grouped the ideas into common themes.
 
 <a href="/assets/Radiodan_workshop_mapping.pdf""><img src="/assets/Radiodan_workshop_mapping.png" width="500" alt="Wrongradio workshop mapping results"/></a>
@@ -65,7 +65,7 @@ Our next step through group discussion is to:
 <li>	Compare our analysis with previously gathered themes</li>
 </ul>
 
-It would also be useful to capture the favourite ideas and find the gems that may be worthy of 
+It would also be useful to capture the favourite ideas and find the gems that may be worthy of
 further exploration.
 
 
