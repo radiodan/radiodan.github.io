@@ -7,6 +7,7 @@ author: andrewnicolaou
 We're starting work on Radiodan v2, hot off the back of our [learnings from v1](retrospective).
 
 Our goal is to make v2 much more decoupled, with all the bits of software sending each other messages, rather than talking to each other directly. We've experimented with this before in [other projects](http://www.bbc.co.uk/rd/blog/2013/07/the-egbox-html5-television-prototype) and found it quite promising. We hope this will make the system:
+
 - more reliable - if one part fails, it doesn't bring down everything;
 - testable - each component listens and sends a small number of messages that are well-defined;
 - language agnostic - if you want to write an app in Python or some other language, you just need to be able to send the correct messages;
