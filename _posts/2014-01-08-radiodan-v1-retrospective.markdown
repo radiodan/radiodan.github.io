@@ -1,7 +1,10 @@
 ---
 layout: post
 title:  "Radiodan v1 Retrospective"
-author: andrewn
+date:   2014-01-08 18:15:00
+author:
+  name: Andrew Nicolaou
+  github: andrewn
 ---
 
 After finishing up Radiodan v1, and just in time for Christmas, Dan and I got together to have a Radiodan v1 retrospective. We wanted to get an idea of what went well, what could have been better and what we'd do differently. This will help us plan Radiodan v2.
