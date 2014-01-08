@@ -28,7 +28,7 @@ languages at the University of Bristol. She's got a PhD in Economics, for all th
 Many others have helped and participated so far, from inside and outside the BBC, including but 
 not limited to:
 
-* [Chris Lowis](http://blog.chrislowis.co.uk): team radiodan but now sadly left BBC R&D and busy with other things
+* [Chris Lowis](http://blog.chrislowis.co.uk): team radiodan but now sadly left BBC R&D and busy at [FutureLearn](https://www.futurelearn.com/)
 * [Jasmine Cox](http://www.jasminecox.co.uk), [Cefn Hoile](http://cefn.com), Tom Nixon: electronics help, and in the case of Cefn and Jasmine (and Andrew too), for organising the [workshop that inadvertently caused this project to happen](http://planb.nicecupoftea.org/2013/04/16/archers-avoider/) 
 * [Richard Sewell](http://jarkman.co.uk), Anton Bowers and others at the [Bristol Hackspace](http://bristol.hackspace.org.uk) for many interesting discussions and [wrong radios](http://www.flickr.com/photos/nicecupoftea/9158910612/in/set-72157634373882934)
 * Neil Ferguson of [Bristol Design Forge](http://www.bristoldesignforge.co.uk/) for much patience with the [initial box design](https://github.com/radiodan/project/blob/master/docs/box_design.markdown)
