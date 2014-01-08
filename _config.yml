@@ -2,6 +2,5 @@ name: Radiodan
 markdown: redcarpet
 pygments: true
 exclude: [Gemfile*]
-name: Radiodan Blog
 description: An (experimental) homebrew, flexible, open source, IP radio
 url: http://radiodan.github.io
