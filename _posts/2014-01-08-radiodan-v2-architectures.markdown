@@ -67,3 +67,4 @@ The interface above has a picture and light for each of your friends. When your 
 
 ![Olinda social radio](/assets/v2-arch-post/10-olindan-social.jpg)
 
+By considering real-world applications of the new architecture we have been able to identify essential components and considerations of the new system.
