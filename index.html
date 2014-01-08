@@ -4,7 +4,8 @@ title: Radiodan Blog
 type: home
 ---
 
-{% include about-project.md %}
+{% capture about %}{% include about-project.md %}{% endcapture %}
+{{ about | markdownify }}
 
 <a name="blog"></a>
 <div>
