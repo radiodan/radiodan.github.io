@@ -43,7 +43,7 @@ not limited to:
 * [Jasmine Cox](http://www.jasminecox.co.uk), [Cefn Hoile](http://cefn.com), Tom Nixon: electronics help, and in the case of Cefn and Jasmine (and Andrew too), for organising the [workshop that inadvertently caused this project to happen](http://planb.nicecupoftea.org/2013/04/16/archers-avoider/) 
 * [Richard Sewell](http://jarkman.co.uk), Anton Bowers and others at the [Bristol Hackspace](http://bristol.hackspace.org.uk) for many interesting discussions and [wrong radios](http://www.flickr.com/photos/nicecupoftea/9158910612/in/set-72157634373882934)
 * Neil Ferguson of [Bristol Design Forge](http://www.bristoldesignforge.co.uk/) for much patience with the [initial box design](https://github.com/radiodan/project/blob/master/docs/box_design.markdown)
-* [Nick Humpfrey](http://www.aelius.com/njh/), Andrew Wood, Tim Broom and our other colleagues at the BBC for tons of help and support.
+* [Nick Humfrey](http://www.aelius.com/njh/), Andrew Wood, Tim Broom and our other colleagues at the BBC for tons of help and support.
 
 Wrongradios:
 
