@@ -23,10 +23,8 @@ Twitter is best - [@libbymiller](http://twitter.com/libbymiller).
 
 A bit more about us:
 
-Andrew Nicolaou [@andrewn](http://twitter.com/andrewn) is a User Interface Developer for BBC R&D. He's interested in prototyping future 
-connected experiences across TV, radio and online, particularly using emerging web technologies 
-and tangible interfaces. Previously, he built audience-facing applications for BBC Online's 
-largest digital products. He has an MSc in System Design for Internet Applications.
+[Andrew Nicolaou](http://www.bbc.co.uk/rd/people/andrew-nicolaou) [@andrewn](http://twitter.com/andrewn) is a User Interface Developer for BBC R&D. He's interested in prototyping future 
+connected experiences across TV, radio and online, particularly using emerging web technologies and tangible interfaces.
 
 Daniel Nuttall [@pixelblend](http://twitter.com/pixelblend) is a Software engineer for Internet Research and Future Services in BBC R&D. He has 
 worked for a range of companies in Europe and Africa, building web sites, browser extensions, 
