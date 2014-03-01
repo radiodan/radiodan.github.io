@@ -10,7 +10,7 @@ author:
 
 This is a quick post to summarise what we've been up to in the last few weeks.
 
-Dan and AndrewN have been working really hard pairing on Radiodan 2, as described in the previous 
+Dan and AndrewN have been working really hard on Radiodan 2, as described in the previous 
 [posts](/2014/01/08/radiodan-v1-retrospective.html) on 
 [architecture](/2014/01/08/radiodan-v2-architectures.html). The big benefits are visible already:
 
