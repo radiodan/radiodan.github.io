@@ -2,8 +2,11 @@ Radiodan is Open Source software that lets you build your own internet radio on
 a Raspberry Pi or in pure software.
 
 [We've](/about) built it using some BBC radio streams, but it is easy to use
-with other streams, and to add MP3 files (and other audio formats). It uses Ruby
-code on top of [MPD](http://www.musicpd.org/).
+with other streams, and to add MP3 files (and other audio formats). We're busy
+building the new version with [NodeJS](http://www.nodejs.org),
+[RabbitMQ](http://www.rabbitmq.com) and [MPD](http://www.musicpd.org/). It can
+run on most UNIX-based operating systems, with particular emphasis on
+[Raspbian](http://www.raspbian.org/).
 
 
 We've made it because we are interested in different kinds of physical radio
