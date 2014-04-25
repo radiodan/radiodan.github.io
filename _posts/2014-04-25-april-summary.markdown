@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Radiodan in March and April - Victor's case designs and web application designs by AndrewW"
+title:  "Radiodan in March and April - coding and case designs"
 date:   2014-04-25 15:25:00
 author:
   -
