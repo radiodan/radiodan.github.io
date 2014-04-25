@@ -50,6 +50,23 @@ ul.posts span {
   font-size: 80%;
 }
 
+.items {
+  list-style-position: inside;
+  margin-bottom: 2em;
+}
+
+.items li {
+  line-height: 1.75em;
+}
+
+ul.items li {
+  list-style-type: disc;
+}
+
+ol ul li {
+  margin-left: 1em;
+}
+
 /*****************************************************************************/
 /*
 /* Site
@@ -77,6 +94,7 @@ a.twitter-follow-button {
 .site .header {
   font-size: 2em;
   font-weight: normal;
+  margin-bottom: 1em;
 }
 
 .site .header a {
@@ -85,25 +103,32 @@ a.twitter-follow-button {
 
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
   font-weight: bold;
 }
 
 .site .header h1.title a {
-  color: #ABE008;
+  color: #5a5a5b;
 }
 
-.site .header h1.title a:hover {
-  color: #eee;
+.site .header h1.title img {
+  width: 8em;
 }
 
 .site .header a.extra {
-  color: #ddd;
+  display: inline-block;
+  color: #5a5a5b;
   margin-left: 1em;
 }
 
+.site .header .title,
+.site .header .extra {
+  vertical-align: middle;
+}
+
 .site .header a.extra:hover {
-  color: #eee;
+  text-decoration: underline;
 }
 
 .site .meta {
@@ -151,7 +176,8 @@ a.twitter-follow-button {
   Masthead
 */
 .masthead {
-  background-color: #333;
+  background-color: #fff;
+  border-bottom: 1px solid #0eb9e7;
 }
 
 .masthead .site {
@@ -165,10 +191,11 @@ a.twitter-follow-button {
 
 .masthead .hero {
   padding: 0 0 0.5em 0;
-  color: #ddd;
+  color: #5a5a5b;
   font-size: 4em;
   line-height: 1;
   text-align: left;
+  padding-bottom: 0;
 }
 
 #home .masthead .hero {
