@@ -8,13 +8,14 @@ author:
     github: libbymiller
 ---
 
-It's been a while since we've posted - we've all been busy. AndrewN and Dan 
-churning through code, implementing AndrewW's designs for the Radiodan webapp for 
-controlling the radio. Dan's been finishing up the BBC Services API which 
-provides information about starts and ends of programmes and songs (using Nick 
-Humfrey's MQTT data) as well as the urls of the streams we're using. AndrewN's been 
-sorting out the physical interface too. They're building up to our [talk at 
-SOLID](http://solidcon.com/solid2014/public/schedule/detail/33250) in May.
+It's been a while since we've posted - we've all been busy. AndrewN and Dan have 
+been churning through code, implementing AndrewW's designs for the Radiodan 
+webapp for controlling the radio. Dan's been finishing up the BBC Services API 
+which provides information about starts and ends of programmes and songs (using 
+Nick Humfrey's MQTT data) as well as the urls of the streams we're using. 
+AndrewN's been sorting out the physical interface too. They're building up to our 
+[talk at SOLID](http://solidcon.com/solid2014/public/schedule/detail/33250) in 
+May.
 
 I stopped them from coding for a bit to get them to explain the architecture to me:
 
