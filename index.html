@@ -4,6 +4,13 @@ title: Radiodan Blog
 type: home
 ---
 
+<h2>About Radiodan</h2>
+{% capture about %}{% include about-project.md %}{% endcapture %}
+{{ about | markdownify }}
+
+<h2>Want to build your own radio?</h2>
+If you'd like to build your own Radiodan-powered radio then get in touch with us <a href="mailto:hello@radiodan.net?subject=Instructions">via email</a> or <a href="https://twitter.com/teamradiodan">on twitter</a>. We're hard at work writing instructions and we'd love your help testing them. 
+
 <h2>Send us your radio ideas</h2>
 We're collecting your radio ideas on our <a href="https://www.flickr.com/groups/2386878@N23">Flickr pool</a>. If you've picked up one of our Radiodan postcards and drawn your own radio then share it with us.
 
@@ -26,10 +33,6 @@ We're collecting your radio ideas on our <a href="https://www.flickr.com/groups/
 </ol>
 
 <p>We'll use your photo in accordance with the <a href="http://www.bbc.co.uk/terms/personal.shtml#5">BBC's terms</a>.</p>
-
-<h2>About Radiodan</h2>
-{% capture about %}{% include about-project.md %}{% endcapture %}
-{{ about | markdownify }}
 
 <a name="blog"></a>
 <div>
