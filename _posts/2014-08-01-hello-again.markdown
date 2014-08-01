@@ -33,7 +33,7 @@ a lot. However, as of today now we have:
 * a [Radiodan NOOBS](http://dev.notu.be/2014/05/radiodan/) that works
 * [draft case-building documentation](https://github.com/radiodan/project/blob/master/docs/case_construction.md) and the [case as pdf](https://github.com/radiodan/project/blob/master/docs/assets/radiodan_3mm_laser_template.pdf)
 * a [getting started document](https://github.com/radiodan/project/blob/master/docs/getting_started.markdown) for the software
-* a handy [REST API](https://github.com/radiodan/magic-button/blob/master/doc/http-api.md) for the magic button functionalities (e.g. changing station, turning it on and off, settingthe volume and so on).
+* a handy [REST API](https://github.com/radiodan/magic-button/blob/master/doc/http-api.md) for the magic button functionalities (e.g. changing station, turning it on and off, setting the volume and so on).
 
 So if you'd like a go, you can start 
 [here](https://github.com/radiodan/project/blob/master/docs/case_construction.md).
