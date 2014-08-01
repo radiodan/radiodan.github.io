@@ -67,3 +67,4 @@ This is a very simple version, with no changes to the code, which uses a crontab
 </code>
 
 <img src="/assets/exclusively_archers.jpg" width="500" alt="Exclusively Archers"/>
+<p><img src="http://dev.notu.be/2014/07/pixel/transparent_2014-07-18.gif" alt="" /></p>
