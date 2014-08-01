@@ -42,7 +42,7 @@ Here's one I made earlier:
 
 <img src="/assets/exclusively_archers_postcard.jpg" width="500" alt="Exclusively Archers Postcard"/>
 
-This is a very simple version, with no changes to the code, which uses a crontab to turn itself on and off for the Archers:
+This is a very simple radio, with no changes to the code, which uses a crontab and the 'magic button' REST API to turn itself on for the Archers, and off again afterwards - so a reverse [Archers Avoider](http://planb.nicecupoftea.org/2013/04/16/archers-avoider/).
 
     # turn it on at 14:02 weekdays
     2 13 * * 1-5  /usr/bin/curl -X POST http://localhost/radio/service/radio4  
