@@ -7,8 +7,6 @@ author:
   github: libbymiller
 ---
 
-<h2>Hello Again</h2>
-
 I've just realised it's almost exactly a year since I wrote the first post here. So, hello again.
 
 <h2>May, June and July for Radiodan</h2>
