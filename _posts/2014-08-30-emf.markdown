@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Radiodan at EMFCamp"
+date:   2014-08-30 16:32:22
+author:
+  name: Libby Miller
+  github: libbymiller
+---
+
+I'm at <a href="https://www.emfcamp.org">EMFCamp</a>, which is an incredible place. 
+
+I presented about Radiodan a couple of hours ago, and this post is in case anyone would like to make one of their own.
+
+Here's what you need:
+
+* a [Radiodan Raspberry PI img](http://dev.notu.be/2014/08/radiodan_img/) that works
+* [draft case-building documentation](https://github.com/radiodan/project/blob/master/docs/case_construction.md) and the [case as pdf](https://github.com/radiodan/project/blob/master/docs/assets/radiodan_3mm_laser_template.pdf)
+* a [getting started document](https://github.com/radiodan/project/blob/master/docs/getting_started.markdown) for the software
+* a handy [REST API](https://github.com/radiodan/magic-button/blob/master/doc/http-api.md) for the magic button functionalities (e.g. changing station, turning it on and off, setting the volume and so on).
+
+So if you'd like a go, you can start 
+[here](https://github.com/radiodan/project/blob/master/docs/case_construction.md).
+
+Here's a field Radiodan:
+
+<img src="/assets/field_radiodan.jpg" width="500" alt="Field Radiodan"/>
+
+<p><img src="http://dev.notu.be/2014/07/pixel/transparent_2014-07-18.gif" alt="" /></p>
