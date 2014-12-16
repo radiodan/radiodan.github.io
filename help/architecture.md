@@ -27,10 +27,14 @@ Media Controller
 
 This component manages media player instances. You send the media controller commands to play audio content. This can be MP3s stored locally or internet audio streams. The media player emits events when there are changes in the system, such as the next track being played or the player being stopped. Multiple players can be created which allows you to play several streams at once (if your audio device supports it).
 
+[Source code](https://github.com/radiodan/radiodan.js)
+
 Physical UI Controller
 --
 
 Connects to the GPIO pins on a Raspberry Pi and emits events when a button is pressed or a dial turned. Accepts commands to change the colour of RGB LEDs.
+
+[Source code](https://github.com/radiodan/physical-ui)
 
 Wifi configuration
 --
