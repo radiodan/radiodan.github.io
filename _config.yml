@@ -1,6 +1,6 @@
 name: Radiodan
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 exclude: [Gemfile*]
 description: An (experimental) homebrew, flexible, open source, IP radio
 url: http://radiodan.github.io
