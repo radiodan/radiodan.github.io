@@ -8,7 +8,7 @@ Architecture
 
 The platform provides a set of useful features. But to make it do anything, you must create a prototype application. This tells the platform what your specific app will do.
 
-<span class="todo">DIAGRAM OF PLATFORM / PROTOTYPE APP</span>
+<img src="assets/platform-prototype-diagram.svg">
 
 Digging deeper, the toolkit is made up of components, a mixture of open source software packages and also custom software written in JavaScript running on [node.js](http://nodejs.org/).
 
@@ -16,7 +16,7 @@ Each component is isolated from all the others and runs independently, communica
 
 We've built a client library in JavaScript makes it easy to talk to the system from prototype apps, either in a web browser or from a node.js application.
 
-<span class="todo">Link to getting started.</span>
+<p class="todo">Link to getting started.</p>
 
 <img src="assets/what-is-radiodan-toolkit-diagram.svg">
 
