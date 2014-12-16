@@ -6,9 +6,9 @@ title:  "Architecture"
 Architecture
 ===
 
-The platform provides a set of useful features. But to make it do anything, you must create a prototype application. This tells the platform what your specific app will do.
+The toolkit provides a set of useful features. But to make it do anything, you must create a prototype application. This tells the toolkit what your specific app will do.
 
-<img src="assets/platform-prototype-diagram.svg">
+<img src="assets/toolkit-prototype-diagram.svg">
 
 Digging deeper, the toolkit is made up of components, a mixture of open source software packages and also custom software written in JavaScript running on [node.js](http://nodejs.org/).
 
