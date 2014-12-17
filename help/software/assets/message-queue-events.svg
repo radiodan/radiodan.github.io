@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.3 406.2" enable-background="new 0 0 595.3 406.2" xml:space="preserve">
+<g id="Background">
+	<rect x="0.7" y="42.5" fill="#E6E7E8" width="594.8" height="225.7"/>
+	<rect x="9.8" y="51.1" fill="none" width="50.8" height="44.6"/>
+	<text transform="matrix(1 0 0 1 9.7949 59.0585)"><tspan x="0" y="0" font-family="'Helvetica-Light'" font-size="11">Setup </tspan><tspan x="0" y="13.2" font-family="'Helvetica-Light'" font-size="11">phase</tspan></text>
+	<rect x="9.8" y="278.3" fill="none" width="50.8" height="44.6"/>
+	<text transform="matrix(1 0 0 1 9.7949 286.1959)"><tspan x="0" y="0" font-family="'Helvetica-Light'" font-size="11">Listening </tspan><tspan x="0" y="13.2" font-family="'Helvetica-Light'" font-size="11">phase</tspan></text>
+</g>
+<g id="Actions">
+	<rect x="119.9" y="55.5" fill="none" width="138.5" height="25.9"/>
+	<text transform="matrix(1 0 0 1 119.9199 62.7122)"><tspan x="0" y="0" fill="#333333" font-family="'Helvetica-Light'" font-size="10">Connect to topic exchange </tspan><tspan x="0" y="12" fill="#333333" font-family="'Consolas'" font-size="10">radiodan</tspan></text>
+	<rect x="61.7" y="357.8" fill="none" width="37.7" height="62.8"/>
+	<text transform="matrix(1 0 0 1 61.6742 364.9686)"><tspan x="0" y="0" fill="#333333" font-family="'Helvetica-Light'" font-size="10">Process </tspan><tspan x="0" y="12" fill="#333333" font-family="'Helvetica-Light'" font-size="10">event</tspan></text>
+	<rect x="119.9" y="182.3" fill="none" width="138.5" height="24.2"/>
+	<text transform="matrix(1 0 0 1 119.9199 189.5053)"><tspan x="0" y="0" fill="#333333" font-family="'Helvetica-Light'" font-size="10">Event receive queue name </tspan><tspan x="0" y="12" fill="#333333" font-family="'Helvetica-Light'" font-size="10">(auto-generated </tspan><tspan x="75" y="12" fill="#333333" font-family="'Consolas'" font-size="10">amqp.xxxxx</tspan></text>
+	<g>
+		<g>
+			<line fill="none" stroke="#333333" stroke-miterlimit="10" x1="113.3" y1="81.4" x2="286.2" y2="81.4"/>
+			<g>
+				<polygon fill="#333333" points="284.2,84.3 295.1,81.4 284.2,78.5 				"/>
+			</g>
+		</g>
+	</g>
+	<rect x="118.4" y="124.1" fill="none" width="165.5" height="35.6"/>
+	<text transform="matrix(1 0 0 1 118.4156 131.3245)"><tspan x="0" y="0" fill="#333333" font-family="'Helvetica-Light'" font-size="10">Bind to exchange with topic key</tspan><tspan x="0" y="12" fill="#333333" font-family="'Helvetica-Light'" font-size="10">  </tspan><tspan x="5.6" y="12" fill="#333333" font-family="'Consolas'" font-size="10">events.&lt;type&gt;.&lt;id&gt;.#</tspan><tspan x="0" y="24" fill="#333333" font-family="'Helvetica-Light'" font-size="10">e.g. </tspan><tspan x="20" y="24" fill="#333333" font-family="'Consolas'" font-size="10">events.button.power.#</tspan></text>
+	<g>
+		<g>
+			<line fill="none" stroke="#333333" stroke-miterlimit="10" x1="113.3" y1="164.6" x2="286.2" y2="164.6"/>
+			<g>
+				<polygon fill="#333333" points="284.2,167.5 295.1,164.6 284.2,161.7 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<line fill="none" stroke="#333333" stroke-miterlimit="10" x1="122.1" y1="211.8" x2="295.1" y2="211.8"/>
+			<g>
+				<polygon fill="#333333" points="124.1,214.7 113.3,211.8 124.1,208.9 				"/>
+			</g>
+		</g>
+	</g>
+	<rect x="310.8" y="79.4" fill="none" width="134.2" height="26.5"/>
+	<text transform="matrix(1 0 0 1 310.7892 86.5774)"><tspan x="0" y="0" fill="#333333" font-family="'Helvetica-Light'" font-size="10">Connect to topic exchange </tspan><tspan x="0" y="12" fill="#333333" font-family="'Consolas'" font-size="10">radiodan</tspan></text>
+	<g>
+		<g>
+			<line fill="none" stroke="#333333" stroke-miterlimit="10" x1="305" y1="105.9" x2="465.1" y2="105.9"/>
+			<g>
+				<polygon fill="#333333" points="306.9,108.8 296.1,105.9 306.9,103 				"/>
+			</g>
+		</g>
+	</g>
+	<rect x="303" y="276.3" fill="none" width="165.1" height="77.3"/>
+	<text transform="matrix(1 0 0 1 302.9542 283.4762)"><tspan x="0" y="0" fill="#333333" font-family="'Helvetica-Light'" font-size="10">Send message to topic exchange:</tspan><tspan x="0" y="12" fill="#333333" font-family="'Helvetica-Light'" font-size="10">  </tspan><tspan x="5.6" y="12" fill="#333333" font-family="'Consolas'" font-size="10">event.&lt;type&gt;.&lt;id&gt;.&lt;event&gt;</tspan><tspan x="0" y="24" fill="#333333" font-family="'Helvetica-Light'" font-size="10">e.g. </tspan><tspan x="20" y="24" fill="#333333" font-family="'Consolas'" font-size="10">events.button.power.press</tspan><tspan x="0" y="36" fill="#333333" font-family="'Helvetica-Light'" font-size="10">Payload:</tspan><tspan x="0" y="48" fill="#333333" font-family="'Consolas'" font-size="10">  Stringified JSON object</tspan></text>
+	<g>
+		<g>
+			<line fill="none" stroke="#333333" stroke-miterlimit="10" x1="305" y1="337.3" x2="465.1" y2="337.3"/>
+			<g>
+				<polygon fill="#333333" points="306.9,340.2 296.1,337.3 306.9,334.4 				"/>
+			</g>
+		</g>
+	</g>
+	<rect x="120.1" y="342.5" fill="none" width="144.5" height="14.7"/>
+	<text transform="matrix(1 0 0 1 120.1171 349.6598)" fill="#333333" font-family="'Helvetica-Light'" font-size="10">Receive message on exchange</text>
+	<rect x="59.7" y="211.8" fill="none" width="36.4" height="48.5"/>
+	<text transform="matrix(1 0 0 1 59.6743 218.9966)"><tspan x="0" y="0" fill="#333333" font-family="'Helvetica-Light'" font-size="10">Setup </tspan><tspan x="0" y="12" fill="#333333" font-family="'Helvetica-Light'" font-size="10">listener </tspan><tspan x="0" y="24" fill="#333333" font-family="'Helvetica-Light'" font-size="10">for </tspan><tspan x="0" y="36" fill="#333333" font-family="'Helvetica-Light'" font-size="10">events</tspan></text>
+	<g>
+		<g>
+			<line fill="none" stroke="#333333" stroke-miterlimit="10" x1="122.1" y1="359.6" x2="295.1" y2="359.6"/>
+			<g>
+				<polygon fill="#333333" points="124.1,362.5 113.3,359.6 124.1,356.7 				"/>
+			</g>
+		</g>
+	</g>
+	<rect x="471.5" y="281.4" fill="none" width="96.7" height="27.5"/>
+	<text transform="matrix(1 0 0 1 471.528 288.5587)" fill="#333333" font-family="'Helvetica-Light'" font-size="10">Button pressed</text>
+	<g>
+		<g>
+			<line fill="none" stroke="#333333" stroke-miterlimit="10" x1="474.7" y1="305.9" x2="558" y2="305.9"/>
+			<g>
+				<polygon fill="#333333" points="476.7,308.8 465.9,305.9 476.7,303 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path fill="none" stroke="#333333" stroke-miterlimit="10" d="M105,379c-2.2-2-3.5-4.9-3.5-8c0-6.2,5.3-11.3,11.7-11.3"/>
+			<g>
+				<polygon fill="#333333" points="104.5,375.2 113.3,382.2 102.2,380.5 				"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path fill="none" stroke="#333333" stroke-miterlimit="10" d="M104.7,239.5c-4.3-2.7-7.1-7.3-7.1-12.6c0-8.3,7-15,15.6-15"/>
+			<g>
+				<polygon fill="#333333" points="103.8,235.8 113.3,241.9 102,241.4 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="Actors">
+	<rect x="258" y="9.9" fill="#333333" width="74.2" height="25.7"/>
+	<rect x="426.3" y="9.9" fill="#1B8BCC" width="80.5" height="25.7"/>
+	<rect x="525.7" y="9.9" fill="#1B8BCC" width="64.5" height="25.7"/>
+	<rect x="68.9" y="9.9" fill="#C75327" width="88.8" height="25.7"/>
+	<g>
+		<line fill="none" stroke="#C75327" stroke-miterlimit="10" x1="113.3" y1="35.6" x2="113.3" y2="400.6"/>
+		<rect x="68.9" y="18.3" fill="none" width="88.8" height="30.4"/>
+		<text transform="matrix(1 0 0 1 77.8078 26.2638)" fill="#FFFFFF" font-family="'Helvetica-Light'" font-size="11">Prototype App</text>
+	</g>
+	<g>
+		<line fill="none" stroke="#333333" stroke-miterlimit="10" x1="295.9" y1="35.6" x2="295.9" y2="400.6"/>
+		<rect x="268.5" y="18.3" fill="none" width="54.9" height="30.4"/>
+		<text transform="matrix(1 0 0 1 269.3533 26.2638)" fill="#FFFFFF" font-family="'Helvetica-Light'" font-size="11">Rabbit MQ</text>
+	</g>
+	<g>
+		<line fill="none" stroke="#1B8BCC" stroke-miterlimit="10" x1="465.9" y1="35.6" x2="465.9" y2="400.6"/>
+		<rect x="429.7" y="18.3" fill="none" width="72.3" height="30.4"/>
+		<text transform="matrix(1 0 0 1 438.3556 26.2638)" fill="#FFFFFF" font-family="'Helvetica-Light'" font-size="11">Physical UI</text>
+	</g>
+	<g>
+		<line fill="none" stroke="#1B8BCC" stroke-miterlimit="10" x1="558" y1="35.6" x2="558" y2="400.6"/>
+		<rect x="533.5" y="18.3" fill="none" width="49" height="30.4"/>
+		<text transform="matrix(1 0 0 1 542.1109 26.2638)" fill="#FFFFFF" font-family="'Helvetica-Light'" font-size="11">Button</text>
+	</g>
+</g>
+</svg>
