@@ -21,16 +21,19 @@ Types of messages
 
 There are two main types of messages, `events` and `commands`.
 
-*Events* allow you to be notified when something hapens in the system, for example a button being pressed, or something being played.
+*Events* allow you to be notified when something happens in the system, for example a button being pressed, or something being played.
 
-*Commands* let you tell a component to do something for example change the colour of an LED or adding a file to a playlist.
+*Commands* let you tell a component to do something, for example change the colour of an LED or add a file to a playlist.
 
 Event queues
 ---
 
-Creating a listener for a specific event type is split into two parts, setting up to be notified of changes, which is done once per event type and then listening for messages on the queue for that event.
+Creating a listener for a specific event type is split into two parts:
 
-The diagram below shows this flow and uses the example of listening for a button event from the Physical UI.
+1. **Setting up to be notified of changes**, which is done once per event type.
+2. **Listening for messages** on the queue for that event.
+
+The diagram below shows this flow with the example of listening for a button press event from the Physical UI.
 
 <a href="assets/message-queue-events.svg" title="Expand image">
   <img src="assets/message-queue-events.svg">
