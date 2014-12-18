@@ -32,7 +32,9 @@ Creating a listener for a specific event type is split into two parts, setting u
 
 The diagram below shows this flow and uses the example of listening for a button event from the Physical UI.
 
-<img src="assets/message-queue-events.svg">
+<a href="assets/message-queue-events.svg" title="Expand image">
+  <img src="assets/message-queue-events.svg">
+</a>
 
 Command queues
 ---
@@ -41,7 +43,9 @@ Sending commands is slightly more complex since a command-reply queue is used to
 
 The diagram below shows this flow.
 
-<img src="assets/message-queue-commands.svg">
+<a href="assets/message-queue-commands.svg" title="Expand image">
+  <img src="assets/message-queue-commands.svg">
+</a>
 
 Message format
 ---
