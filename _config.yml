@@ -1,5 +1,4 @@
 name: Radiodan
-markdown: redcarpet
 highlighter: pygments
 exclude: [Gemfile*]
 description: An (experimental) homebrew, flexible, open source, IP radio
