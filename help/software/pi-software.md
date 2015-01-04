@@ -31,10 +31,15 @@ Services are apps that are designed to run all the time. You shouldn't need to s
 
 | Name     | Purpose |
  ------    | ---------
-| server   | The radiodan media controller server |
-| buttons  | The radiodan physical UI controller  |
-| updater  | The software updater application  |
-| cease    | An application that listens for a special messager from apps to shut down the system |
+| [server][server]   | The radiodan media controller server |
+| [buttons][buttons]  | The radiodan physical UI controller  |
+| [updater][updater]  | The software updater application  |
+| [cease][cease]    | An application that listens for a special messager from apps to shut down the system |
+
+[server]: https://github.com/radiodan/radiodan.js
+[buttons]: https://github.com/radiodan/physical-ui
+[updater]: https://github.com/radiodan/updater
+[cease]: https://github.com/radiodan/cease
 
 Prototype apps
 ---
@@ -43,8 +48,11 @@ These are apps that enable specific radio-like behaviour. The `example` app is a
 
 | Name     | Purpose |
  --------- | ---------
-| magic    | The default IP radio application  |
-| example  | An example application (not active by default) |
+| [magic][magic]   | The default IP radio application  |
+| [example][example]  | An example application (not active by default) |
+
+[magic]: https://github.com/radiodan/magic-button
+[example]: https://github.com/radiodan/client-web-example
 
 Starting and stopping services
 ---
@@ -58,9 +66,11 @@ A `device type` is the combination of services and apps that are running at one 
 
 To change the device type, run the `radiodan-device-type` command. This will list the available types. Switch type by specifying the name.
 
-Switching device types simply changes which `monit` configuration file is currently active. All available config files are in `/etc/monit/monitrc.d/` and active config files are symlinked into `/etc/monit/monitrc.d/`.
+Switching device types changes which `radiodan-type-*` `monit` configuration file is currently active. All available config files are in `/etc/monit/monitrc.d/` and active config files are symlinked into `/etc/monit/conf.d/`.
 
-To stop a service starting, open the monit config for the current device type and comment-out the lines relating to the serice you want to stop. Some services, such as the updater and cease daemon are in the radiodan-general config file.
+To prevent a service from starting at all, you can either open the monit config for the current device type and comment-out the lines relating to the serice you want to stop. For example, you might edit `/etc/monit/monitrc.d/radiodan-type-magic` and comment out the lines that start the physical UI server (radiodan-buttons). Alternatively, to stop everything in that file from starting, removing the symlink from `/etc/monit/conf.d/radiodan-type-magic`.
+
+Some services, such as the updater and cease daemon are found in the `/etc/monit/monitrc.d/radiodan-system` config file.
 
 <p class="todo">Example of listing device types and switching to a device type.</p>
 
