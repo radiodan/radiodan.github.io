@@ -62,7 +62,5 @@ This is a very simple radio, with no changes to the code, which uses a crontab a
     # and turn it off at 11:15
     15 10 * * 7 /usr/bin/curl -X DELETE http://localhost/radio/power
 
-</code>
-
 <img src="/assets/exclusively_archers.jpg" width="500" alt="Exclusively Archers"/>
 <p><img src="http://dev.notu.be/2014/07/pixel/transparent_2014-07-18.gif" alt="" /></p>
