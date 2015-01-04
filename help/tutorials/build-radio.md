@@ -31,7 +31,8 @@ You can usually uncompress the disk image by double-clicking on it.
 
 ### 2. Flash a blank SD card with the image
 
-[Follow the instructions]() on the Raspberry Pi site to flash the downloaded disk image onto your SD card. Where the instructions talk about the `wheezy disk image` substitute that for the disk image you've just downloaded.
+You now need to flash the downloaded disk image onto your SD card.
+[Follow the instructions on the Raspberry Pi site](http://www.raspberrypi.org/documentation/installation/installing-images/README.md), start at **WRITING AN IMAGE TO THE SD CARD** as you've just downloaded the image you want to flash onto the card.
 
 <p class="todo">Include instructions on renaming the radio at this point?</p>
 
