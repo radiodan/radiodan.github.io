@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title:  "Make your own Raspberry Pi radio"
 ---
 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title:  "Raspberry Pi software"
 ---
 

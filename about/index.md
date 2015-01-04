@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title:  "About"
 date:   2014-01-08 11:06:18
 author: libbymiller
@@ -7,8 +7,6 @@ author: libbymiller
 
 * [About Radiodan](#project)
 * [About us](#people)
-
-<p></p>
 
 <h2 id="project">About Radiodan</h2>
 
