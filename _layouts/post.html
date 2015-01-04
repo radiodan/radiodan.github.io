@@ -2,19 +2,21 @@
 layout: default
 type: post
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }} by
-  {% if page.author.first and page.author.first.name %}
-    {% for author in page.author %}
-      <a href="http://github.com/{{ author.github }}">{{ author.name }}</a>{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  {% elsif page.author.name and page.author.github %}
-    <a href="http://github.com/{{ page.author.github }}">{{ page.author.name }}</a>
-  {% else %}
-    {{ page.author }}
-  {% endif %}
-</p>
+<div class="row">
+  <h2>{{ page.title }}</h2>
+  <p class="meta">{{ page.date | date_to_string }} by
+    {% if page.author.first and page.author.first.name %}
+      {% for author in page.author %}
+        <a href="http://github.com/{{ author.github }}">{{ author.name }}</a>{% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    {% elsif page.author.name and page.author.github %}
+      <a href="http://github.com/{{ page.author.github }}">{{ page.author.name }}</a>
+    {% else %}
+      {{ page.author }}
+    {% endif %}
+  </p>
 
-<div class="post">
-{{ content }}
+  <div class="post ten columns">
+  {{ content }}
+  </div>
 </div>

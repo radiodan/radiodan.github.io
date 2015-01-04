@@ -14,7 +14,6 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  text-align: center;
   margin: 0;
 }
 
@@ -108,124 +107,49 @@ a.twitter-follow-button {
   display: none;
 }
 
-.site {
-  position: relative;
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 2em auto;
-  line-height: 1.5em;
-}
-
-.site .header {
-  font-size: 2em;
-  font-weight: normal;
-  margin-bottom: 1em;
-}
-
-.site .header a {
-  text-decoration: none;
-}
-
-.site .header h1.title {
-  display: inline-block;
-  margin-top: 0;
-  margin-bottom: 0;
-  font-weight: bold;
-}
-
-.site .header h1.title a {
-  color: #5a5a5b;
-}
-
-.site .header h1.title img {
-  width: 8em;
-}
-
-.site .header a.extra {
-  display: inline-block;
-  color: #5a5a5b;
-  margin-left: 1em;
-  margin-top: 0.4em;
-}
-
-.site .header .title,
-.site .header .extra {
-  vertical-align: middle;
-}
-
-.site .header a.extra:hover {
-  text-decoration: underline;
-}
-
-.site .meta {
-  color: #aaa;
-}
-
-.site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden;
-}
-
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.site .footer .contact a {
-  color: #8085C1;
-}
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
-}
-
-#home .site .header {
-  font-size: 2em;
-}
-
-/*
-#home .site .extra {
-  display: none;
-}
-*/
-
 /*
   Masthead
 */
 .masthead {
-  background-color: #fff;
+  margin-top: 1em;
+  margin-bottom: 1.5em;
   border-bottom: 1px solid #0eb9e7;
 }
 
-.masthead .site {
-  margin-top: 0;
-  padding-top: 2em;
+.masthead .title img {
+  width: 100%;
 }
 
-.masthead .hero {
+.masthead .nav a {
+  display: inline-block;
+  margin-left: 1em;
+  margin-top: 0.75em;
+
+  vertical-align: middle;
+  text-decoration: none;
+
+  color: #5a5a5b;
+  font-size: 2em;
+}
+
+.masthead .nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero
+   Shown on homepage only
+*/
+.hero {
   display: none;
-}
 
-.masthead .hero {
   padding: 0 0 0.5em 0;
   color: #5a5a5b;
   font-size: 4em;
   line-height: 1;
   text-align: left;
-  padding-bottom: 0;
 }
 
-#home .masthead .hero {
+#home .hero {
   display: block;
 }
 
