@@ -107,6 +107,10 @@ a.twitter-follow-button {
   display: none;
 }
 
+.main {
+  margin-bottom: 5em;
+}
+
 /*
   Masthead
 */
