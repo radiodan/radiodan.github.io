@@ -16,13 +16,14 @@ Each component is isolated from all the others and runs independently, communica
 
 We've built a client library in JavaScript makes it easy to talk to the system from prototype apps, either in a web browser or from a node.js application.
 
-<p class="todo">Link to getting started.</p>
-
 <img src="assets/what-is-radiodan-toolkit-diagram.svg">
+
 <p class="todo">Update diagram to show core radiodan components and another diagram "zooming out" to show device components.</p>
 
 
 The toolkit works just as well for building media prototypes that run in the cloud, or working on powerful computers. But some parts of the toolkit are specifically aimed at helping embedded linux devices such as the Raspberry Pi to help create a believable radio-like experience.
+
+<p class="note">We've produced a Raspberry Pi disk image that makes it easy to create your own internet radio. <a href="/help/tutorials/build-radio.html">Read the instructions.</a></p>
 
 Core components
 ---
@@ -31,7 +32,7 @@ Core components
 
 We use [RabbitMQ](https://www.rabbitmq.com/) as the messaging layer. There are clients for many different languages meaning that you can write prototype apps in many languages.
 
-<p class="todo">Link to messaging architecture docs</p>
+[Read more about the messaging layer, and the format of messages.](/help/software/messaging.html)
 
 ### Media Controller
 
