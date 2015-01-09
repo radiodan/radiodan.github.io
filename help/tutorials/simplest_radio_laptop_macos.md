@@ -18,7 +18,7 @@ What you need
 
 For your radio you'll need the following:
 
-- a laptop or desktop with a built in speaker or 35mm audio jack
+- a laptop or desktop with a built in speaker 
 - an internet connection
 
 Steps
@@ -30,7 +30,7 @@ brew update
 brew install mpd
 mpd
 
-### 2. Install rabbitMQ
+### 2. Install rabbitmq
 
 brew install rabbitmq
 rabbitmq-server
@@ -38,7 +38,7 @@ rabbitmq-server
 ### 3. Install node.js
 
 brew install node.js
-npm install -g npm@latest (?)
+npm install -g npm@latest
 
 ### 4. Download this example code and install its dependencies
 
@@ -52,7 +52,9 @@ npm start
 
 ### 6. Go to http://localhost:5000
 
+Control the sound from the web page.
 
+<img src="assets/skeleton_app_screenshot.png" alt="Screenshot of the skeleton app in a browser"/>
 
 
 ### Troubleshooting
