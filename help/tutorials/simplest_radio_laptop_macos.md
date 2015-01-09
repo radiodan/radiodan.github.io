@@ -18,8 +18,12 @@ What you need
 
 For your radio you'll need the following:
 
-- a laptop or desktop with a built in speaker 
+- a laptop or desktop 
+    - with a built in speakers, or headphones or a speaker attached
+    - Mac OS X (<a herf="../">different operating systems</a>
+    - <a href="http://brew.sh">homebrew</a> installed
 - an internet connection
+
 
 Steps
 ---
