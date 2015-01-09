@@ -6,7 +6,7 @@ title:  "Tutorials"
 I want to...
 
 * Try the software on my laptop / desktop
-    * Mac OS X
+    * <a href="simplest_radio_laptop.html">Mac OS X</a>
     * Ubuntu Linux
     * Windows (??)
 * Try the software on a Raspberry Pi
