@@ -1,16 +1,16 @@
 ---
 layout: page
-title:  "Make your own radio on a laptop"
+title:  "Make your own radio on a Mac OS X laptop or desktop"
 ---
 
-Make your own radio on a laptop
+Make your own radio on a Mac OS X laptop or desktop
 ===
 
 This guide explains how to use our software on a laptop or desktop machine.
 
 These are the instructions for Mac OS X (I used 10.9.5)
 
-It's intended for developers to use to ge started hacking, so we're going to 
+It's intended for developers to use to get started, so we're going to 
 install a minimal radio application.
 
 What you need
