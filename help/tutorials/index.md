@@ -6,9 +6,9 @@ title:  "Tutorials"
 I want to...
 
 * Try the software on my laptop / desktop
-    * <a href="simplest_radio_laptop_macos.html">Mac OS X</a>
+    * [Mac OS X](simplest-radio-laptop-macos.html)
     * Ubuntu Linux
-    * Windows (??)
+    * Windows
 * Try the software on a Raspberry Pi
     * I've got an ethernet cable only
     * I've got a wifi card

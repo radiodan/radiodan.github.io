@@ -8,7 +8,7 @@ Make your own radio on a Mac OS X laptop or desktop
 
 This guide explains how to use our software on a laptop or desktop machine.
 
-These are the instructions for Mac OS X (I used 10.9.5)
+These are the instructions for Mac OS X (tested on 10.9+).
 
 It's intended for developers to use to get started, so we're going to 
 install a minimal radio application.
@@ -18,12 +18,11 @@ What you need
 
 For your radio you'll need the following:
 
-- a laptop or desktop 
+- a laptop or desktop:
     - with a built in speakers, or headphones or a speaker attached
-    - Mac OS X (<a herf="../">different operating systems</a>
-    - <a href="http://brew.sh">homebrew</a> installed
+    - Mac OS X (the software will work with other operating systems)
+    - [homebrew](http://brew.sh) installed
 - an internet connection
-
 
 Steps
 ---
@@ -53,7 +52,7 @@ Steps
 
     npm start
 
-### 6. Go to <a href="http://localhost:5000">http://localhost:5000</a> in a browser
+### 6. Go to [http://localhost:5000](http://localhost:5000) in a browser
 
 Control the sound from the web page.
 
