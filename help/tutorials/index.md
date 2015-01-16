@@ -5,10 +5,7 @@ title:  "Tutorials"
 
 I want to...
 
-* Try the software on my laptop / desktop
-    * [Mac OS X](simplest-radio-laptop-macos.html)
-    * Ubuntu Linux
-    * Windows
+* [Try the software on my laptop / desktop](simplest-radio-laptop.html)
 * Try the software on a Raspberry Pi
     * I've got an ethernet cable only
     * I've got a wifi card
