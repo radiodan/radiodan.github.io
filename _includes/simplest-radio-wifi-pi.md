@@ -4,7 +4,7 @@ Raspberry Pi with wifi: Steps
 {% capture pidiskimage %}{% include pi-disk-image.md %}{% endcapture %}
   {{ pidiskimage | markdownify }}
 
-### 3. Plug everything together
+### Plug everything together
 
 Insert the SD card into the Pi.
 
@@ -16,7 +16,7 @@ If you're not using a USB audio card, plug your speaker into the sound jack on t
 
 Plug the Pi into the power source and wait.
 
-### 4. Connect to wi-fi
+### Connect to wi-fi
 
 If you're using a wi-fi adapter, the radio initially won't be able to 
 connect to your wi-fi network. It'll create it's own wi-fi network called

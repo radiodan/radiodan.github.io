@@ -13,28 +13,28 @@ For your radio you’ll need the following:
 Mac OS X: Steps
 ---
 
-### 1. Install MPD
+### Install MPD
 
     brew update
     brew install mpd
 
-### 2. Install rabbitmq
+### Install rabbitmq
 
     brew install rabbitmq
     rabbitmq-server
 
-### 3. Install node.js
+### Install node.js
 
     brew install node.js
     npm install -g npm@latest
 
-{% capture skeleton %}{% include skeleton.md %}{% endcapture %}
+{% capture skeleton %}{% include simplest-radio-skeleton.md %}{% endcapture %}
   {{ skeleton | markdownify }}
 
 
 ### Mac OS X: Troubleshooting
 
-### 1. brew error
+### brew error
 
     error: The following untracked working tree files would be overwritten by merge:
 
@@ -45,7 +45,7 @@ fix:
     git reset --hard origin/master
 
 
-### 2. No sound
+### No sound
 
 Ensure the sound's turned up on your laptop / machine (obvious, but mine wasn't).
 

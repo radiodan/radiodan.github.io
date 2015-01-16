@@ -1,14 +1,14 @@
-### 4. Download this example code and install its dependencies
+### Download this example code and install its dependencies
 
     git clone https://github.com/radiodan/radiodan-skeleton.git
     cd radiodan-skeleton
     npm install
 
-### 5. Run the server
+### Run the server
 
     npm start
 
-### 6. Go to [http://localhost:5000](http://localhost:5000) in a browser
+### Go to [http://localhost:5000](http://localhost:5000) in a browser
 
 Control the sound from the web page.
 

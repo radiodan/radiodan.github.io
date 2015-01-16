@@ -18,8 +18,22 @@ install a minimal radio application.
   {{ macos | markdownify }}
 
 
+Next steps
+--
+
+You might like to try [programming your own radio](/help/tutorials/index.html#coding).
+
+
+----
+
 <a name="linux"></a>
 
 {% capture linux %}{% include simplest-radio-laptop-linux.md %}{% endcapture %}
   {{ linux | markdownify }}
+
+
+Next steps
+--
+
+You might like to try [programming your own radio](/help/tutorials/index.html#coding).
 

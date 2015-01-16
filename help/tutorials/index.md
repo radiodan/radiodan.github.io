@@ -7,12 +7,8 @@ I want to...
 
 * [Try the software on my laptop / desktop](simplest-radio-laptop.html)
 * [Try the software on a Raspberry Pi](basic-pi-radio.html)
-* Make and build a case to put it in
-    * I've got access to a laser cutter
-    * I have cardboard, scissors and a hole punch
-* Add buttons and dials
-    * I hate soldering or can't wait
-    * I love soldering and can wait 
+* [Make and build a case to put it in](make-a-case.html)
+* [Add buttons and dials](buttons-and-dials.html)
 
 Code examples
 

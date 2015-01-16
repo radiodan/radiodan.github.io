@@ -4,7 +4,7 @@ Raspberry Pi with Ethernet: Steps
 {% capture pidiskimage %}{% include pi-disk-image.md %}{% endcapture %}
   {{ pidiskimage | markdownify }}
 
-### 3. Plug everything together
+### Plug everything together
 
 Insert the SD card into the Pi.
 

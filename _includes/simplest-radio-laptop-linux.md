@@ -12,28 +12,27 @@ For your radio you’ll need the following:
 Linux: Steps
 ---
 
-### 1. Install git
+### Install git
 
     sudo apt-get install git
 
-### 2. Install MPD
+### Install MPD
 
     sudo apt-get update
     sudo apt-get install mpd
 
-### 3. Install and start rabbitmq
+### Install and start rabbitmq
 
     sudo apt-get install rabbitmq
     rabbitmq-server
 
-### 4. Install node.js
+### Install node.js
 
     sudo apt-get install node.js
     npm install -g npm@latest
 
-{% capture skeleton %}{% include skeleton.md %}{% endcapture %}
+{% capture skeleton %}{% include simplest-radio-skeleton.md %}{% endcapture %}
   {{ skeleton | markdownify }}
 
-<!--### Linix: Troubleshooting!>
-
+### Linux: Troubleshooting
 

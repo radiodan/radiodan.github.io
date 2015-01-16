@@ -1,4 +1,4 @@
-### 5. Play some radio
+### Play some radio
 
 When the radio starts up, make sure you connect to the same network as the radio. You can then load the web-based remote control on your computer or phone at [http://radiodan.local](http://radiodan.local).
 
