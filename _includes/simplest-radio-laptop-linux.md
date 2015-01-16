@@ -1,4 +1,4 @@
-Ubuntu: What you'll need
+Linux: What you'll need
 ---
 
 For your radio you’ll need the following:
@@ -34,6 +34,6 @@ Linux: Steps
 {% capture skeleton %}{% include skeleton.md %}{% endcapture %}
   {{ skeleton | markdownify }}
 
-<!--### Ubuntu: Troubleshooting!>
+<!--### Linix: Troubleshooting!>
 
 
