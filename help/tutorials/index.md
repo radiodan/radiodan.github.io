@@ -3,7 +3,7 @@ layout: page
 title:  "Tutorials"
 ---
 
-I want to...
+### I want to...
 
 * [Try the software on my laptop / desktop](simplest-radio-laptop.html) (partial)
 * [Try the software on a Raspberry Pi](basic-pi-radio.html)
@@ -22,7 +22,7 @@ I want to...
     * Example: turn to radio 4 at a specific time using a crontab 
 -->
 
-Radio ideas
+### Radio ideas
 
 You can see some examples in our showcase, such as 
 
