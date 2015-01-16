@@ -3,7 +3,7 @@ layout: page
 title:  "Make your own radio on a laptop or desktop"
 ---
 
-Make your own radio on a laptop or desktop: [Mac OS X](#mac) | [Ubuntu](#ubuntu) | Windows
+Make your own radio on a laptop or desktop: [Mac OS X](#mac) | [Linux](#linux) | Windows
 ===
 
 This guide explains how to use our software on a laptop or desktop machine.
@@ -18,8 +18,8 @@ install a minimal radio application.
   {{ macos | markdownify }}
 
 
-<a name="ubuntu"></a>
+<a name="linux"></a>
 
-{% capture ubuntu %}{% include simplest-radio-laptop-ubuntu.md %}{% endcapture %}
-  {{ ubuntu | markdownify }}
+{% capture linux %}{% include simplest-radio-laptop-linux.md %}{% endcapture %}
+  {{ linux | markdownify }}
 

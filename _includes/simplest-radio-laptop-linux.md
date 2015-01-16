@@ -5,24 +5,28 @@ For your radio you’ll need the following:
 
 * a laptop or desktop:
      * with a built in speakers, or headphones or a speaker attached
-     * Ubuntu 14 or newer
+     * Debian-based system such as Ubuntu
 * an internet connection
 
 
-Ubuntu: Steps
+Linux: Steps
 ---
 
-### 1. Install MPD
+### 1. Install git
+
+    sudo apt-get install git
+
+### 2. Install MPD
 
     sudo apt-get update
     sudo apt-get install mpd
 
-### 2. Install and start rabbitmq
+### 3. Install and start rabbitmq
 
     sudo apt-get install rabbitmq
     rabbitmq-server
 
-### 3. Install node.js
+### 4. Install node.js
 
     sudo apt-get install node.js
     npm install -g npm@latest
@@ -30,7 +34,6 @@ Ubuntu: Steps
 {% capture skeleton %}{% include skeleton.md %}{% endcapture %}
   {{ skeleton | markdownify }}
 
-
-### Ubuntu: Troubleshooting
+<!--### Ubuntu: Troubleshooting!>
 
 
