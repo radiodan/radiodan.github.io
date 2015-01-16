@@ -12,6 +12,7 @@
 
 Control the sound from the web page.
 
-<img src="/assets/skeleton_app_screenshot.png" alt="Screenshot of the skeleton app in a browser"/>
+<img src="/assets/skeleton_app_screenshot.png" alt="Screenshot of the 
+skeleton app in a browser"/>
 
 

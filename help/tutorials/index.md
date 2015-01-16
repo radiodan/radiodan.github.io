@@ -6,9 +6,7 @@ title:  "Tutorials"
 I want to...
 
 * [Try the software on my laptop / desktop](simplest-radio-laptop.html)
-* Try the software on a Raspberry Pi
-    * I've got an ethernet cable only
-    * I've got a wifi card
+* [Try the software on a Raspberry Pi](basic-pi-radio.html)
 * Make and build a case to put it in
     * I've got access to a laser cutter
     * I have cardboard, scissors and a hole punch
