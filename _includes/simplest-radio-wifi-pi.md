@@ -19,9 +19,10 @@ Plug the Pi into the power source and wait.
 ### Connect to wi-fi
 
 If you're using a wi-fi adapter, the radio initially won't be able to 
-connect to your wi-fi network. It'll create it's own wi-fi network called
-`radiodan-configuration`. Connect to that network with another computer
-or phone and a window should pop-up that lets you configure the network.
+connect to your wi-fi network. It'll create it's own wi-fi network called 
+`radiodan-configuration`. Connect to that network with another computer 
+or phone, and a window should pop-up that lets you configure the network 
+(in the screenshots below, mine's called "Zetland").
 
 <img src="/assets/radiodan_wifi_step1.png" alt="Radiodan wifi step 1: Show networks"/>
 <img src="/assets/radiodan_wifi_step2.png" alt="Radiodan wifi step 2: Enter password"/>
