@@ -1,12 +1,17 @@
 ---
+section: about
 layout: page
 title:  "About"
 date:   2014-01-08 11:06:18
 author: libbymiller
+subnav:
+  -
+    title: "About Radiodan"
+    href: "#project"
+  -
+    title: "About us"
+    href: "#people"
 ---
-
-* [About Radiodan](#project)
-* [About us](#people)
 
 <h2 id="project">About Radiodan</h2>
 
