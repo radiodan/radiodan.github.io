@@ -55,6 +55,15 @@ a:visited { color: #333; }
   font-weight: bold;
 }
 
+/*
+  Footer
+*/
+.footer {
+  border-top: 1px solid #0eb9e7;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
 /*****************************************************************************/
 /*
 /* Home
