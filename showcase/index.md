@@ -38,7 +38,8 @@ allowfullscreen></iframe>
 <h2>Book at Bedtime Radio</h2>
 
 Joanne Moore's <a href="http://www.bbc.co.uk/programmes/b006qtlx">Book at 
-Bedtime</a> radio has a physical form like a book.
+Bedtime</a> radio has a physical form like a book. It's currently a 
+"maquette" - a physical model showing how it would work.
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/oaJTHsT0lSE" frameborder="0" allowfullscreen></iframe>
 
