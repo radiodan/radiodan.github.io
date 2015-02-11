@@ -52,7 +52,15 @@ Andrew Nicolaou's Playlist-follow radio allows you to follow BBC Playlister pres
 
 Libby Miller's Exclusively Archers radio only plays the Archers, switching itself on for the Archers and off again afterwards. It's very quick to make, and uses a crontab. Instructions are <a href="http://planb.nicecupoftea.org/2015/01/25/a-quick-radiodan-exclusively-archers/">here</a>.
 
+<p>
 <img class="one-half column" src="/assets/exclusively_archers_landscape.png" />
+</p>
 
+<br clear="both"/>
 
+<h2>Archers Avoider</h2>
+
+This was the first instance of Radiodan and was the <a href="http://www.bbc.co.uk/rd/blog/2013/09/prototyping-radio-experiences-with-radiodan">idea</a> that led to the project. This is a Mark 4.
+
+<iframe src="//player.vimeo.com/video/73576108" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
