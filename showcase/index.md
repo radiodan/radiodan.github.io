@@ -14,14 +14,13 @@ fully-functional radio with a customisable button.
 
 <iframe src="//player.vimeo.com/video/119329395" width="500" height="281" 
 frameborder="0" webkitallowfullscreen mozallowfullscreen 
-allowfullscreen></iframe> <p><a href="http://vimeo.com/98559661">Magic 
-Button Radio/a></a></iframe>
+allowfullscreen></iframe> 
 
 <h2>Podcast in a box</h2>
 
 Podcast in a box uses RFID cards to change the podcast being played.
 
-<object type="application/x-shockwave-flash" width="500" height="300" data="https://www.flickr.com/apps/video/stewart.swf" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"><param name="flashvars" value="intl_lang=en-US&photo_secret=db06d456b6&photo_id=16306877407&hd_default=false"></param><param name="movie" value="https://www.flickr.com/apps/video/stewart.swf"></param><param name="bgcolor" value="#000000"></param><param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/video/stewart.swf" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-US&photo_secret=db06d456b6&photo_id=16306877407&hd_default=false" width="400" height="225"></embed></object>
+<object type="application/x-shockwave-flash" width="400" height="220" data="https://www.flickr.com/apps/video/stewart.swf" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"><param name="flashvars" value="intl_lang=en-US&photo_secret=db06d456b6&photo_id=16306877407&hd_default=false"></param><param name="movie" value="https://www.flickr.com/apps/video/stewart.swf"></param><param name="bgcolor" value="#000000"></param><param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/video/stewart.swf" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-US&photo_secret=db06d456b6&photo_id=16306877407&hd_default=false" width="400" height="225"></embed></object>
 
 <h2>GCal Radio</h2>
 
@@ -52,7 +51,7 @@ Andrew's Playlist-follow radio allows you to follow Spotify playlists using a ph
 
 Libby's exclusively Archers radio only plays the Archers, switching itself on for the Archers and off again afterwards.
 
-<img src="/assets/exclusively_archers.jpg" width="500"/>
+<img src="/assets/exclusively_archers.jpg" width="300"/>
 
 
 
