@@ -5,6 +5,9 @@ title:  "Showcase"
 
 <h1>Examples of what we've made with Radiodan so far</h1>
 
+The idea of Radiodan is that anyone should be able to make an interesting 
+radio. To make sure this is possible, we've been making our own.
+
 <h2>Magic Button Radio</h2>
 
 The Magic Button radio is a fully-functional radio with a customisable 
@@ -50,7 +53,10 @@ Bedtime</a> radio has a physical form like a book. It's currently a
 
 Andrew Nicolaou's Playlist-follow radio allows you to follow BBC Playlister presenter and TV show playlists using a physical interface. You can play back entire tracks via Spotify.
 
-<object type="application/x-shockwave-flash" width="400" height="225" data="https://www.flickr.com/apps/video/stewart.swf" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"><param name="flashvars" value="intl_lang=en-US&photo_secret=f14d1550c5&photo_id=16314246659&hd_default=false"></param><param name="movie" value="https://www.flickr.com/apps/video/stewart.swf"></param><param name="bgcolor" value="#000000"></param><param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="https://www.flickr.com/apps/video/stewart.swf" bgcolor="#000000" allowfullscreen="true" flashvars="intl_lang=en-US&photo_secret=f14d1550c5&photo_id=16314246659&hd_default=false" width="400" height="225"></embed></object>
+<iframe src="//player.vimeo.com/video/119547889" width="500" height="281" 
+frameborder="0" webkitallowfullscreen mozallowfullscreen 
+allowfullscreen></iframe> 
+
 
 <h2>Exclusively Archers</h2>
 
