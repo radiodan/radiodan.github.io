@@ -3,14 +3,16 @@ layout: page
 title:  "Make a case for a Raspberry Pi Radio"
 ---
 
-Make a case for a Raspberry Pi Radio: [laser cutter](#laser) | [cardboard and scissors](#cardboard)
+Make a case for a Raspberry Pi Radio
 ===
+
+## [laser cutter](#laser) | [cardboard and scissors](#cardboard)
 
 <p class="todo">Remove [old instructions](https://github.com/radiodan/project/blob/master/docs/case_construction.md)</p>
 
 This guide describes how to make a case, providing templates for a laser cutter and for a hand-made version in cardboard.
 
-The case is designed (by Victor Johannsen) to be something 
+The case is designed (by Victor Johannson) to be something 
 that can be changed and adapted to the size of different components.
 
 Here we use a USB soundcard and a 5cm diameter speaker, but we've also 
