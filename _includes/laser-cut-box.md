@@ -20,9 +20,7 @@ Radiodan laser-cut box: Steps
 
 ### Laser cut the pieces
 
-Use [this 
-template](https://github.com/radiodan/project/blob/master/docs/assets/radiodan_3mm_laser_template.pdf?raw=true) 
-(pdf). Red is cut, blue is score, black is etch.
+Use [our case template](https://github.com/radiodan/hardware/tree/master/case).
 
 ### Assemble the base
 
