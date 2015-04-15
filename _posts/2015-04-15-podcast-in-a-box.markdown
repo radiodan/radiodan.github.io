@@ -131,23 +131,38 @@ Radiodan uses Monit to manage its processes. You can see what it's doing by typi
 We want to disable Radiodan updates (updater_status) in case it overwrites the changes we've made; we also want to remove radiodan-cease (a utility to turn off the radio with the power button being held down, because we use the power button differently); and we're going to replace radiodan-magic which is the default app with our own, so we're going to stop Monit monitoring all those:
 
 <code>$ sudo monit stop updater_status</code>
+<br />
 <code>$ sudo monit stop radiodan-cease</code>
+<br />
 <code>$ sudo monit stop radiodan-magic</code>
 
 then you'll see things like this:
 <code>
-$ sudo monit status
-File 'updater_status'
-status Not monitored
-monitoring status Not monitored
-data collected Fri, 02 Jan 2015 15:02:16
+$ sudo monit status</code>
+<br />
+<code>File 'updater_status'</code>
+<br />
+<code>status Not monitored</code>
+<br />
+<code>monitoring status Not monitored</code>
+<br />
+<code>data collected Fri, 02 Jan 2015 15:02:16
 </code>
 <h2>8. Download the podcast software</h2>
 Radiodan keeps its apps in <code>/opt/radiodan/apps</code>, so we'll put it there.
 <code>
 $ cd /opt/radiodan/apps
+</code>
+<br />
+<code>
 $ sudo git clone https://github.com/libbymiller/radiodan-client-podcast.git
+</code>
+<br />
+<code>
 $ cd radiodan-client-podcast/
+</code>
+<br />
+<code>
 $ sudo chown -R pi:pi .
 </code>
 
@@ -156,21 +171,43 @@ There are two pieces - <a href="https://github.com/libbymiller/radiodan-client-p
 Install the dependences for node
 
 <code>$ npm install</code>
-
+<br />
 and for the python <a href="https://github.com/svvitale/nxppy">nxppy</a> code (for interacting with the NFC reader)
+<br />
 <code>
 $ cd
+</code>
+<br />
+<code>
 $ sudo apt-get update
+</code>
+<br />
+<code>
 $ sudo apt-get -y install build-essential python2.7-dev python-setuptools cmake
+</code>
+<br />
+<code>
 $ curl -O https://bootstrap.pypa.io/get-pip.py
+</code>
+<br />
+<code>
 $ sudo python get-pip.py
+</code>
+<br />
+<code>
 $ sudo pip install requests
 </code>
 
 Install nxppy:
 <code>
 $ git clone https://github.com/svvitale/nxppy.git
+</code>
+<br />
+<code>
 $ cd nxppy
+</code>
+<br />
+<code>
 $ sudo python setup.py build install
 </code>
 
@@ -179,6 +216,9 @@ $ sudo python setup.py build install
 Monit works using init.d scripts, so we need to add those, so that our app runs when the Pi is booted up.
 <code>
 $ sudo cp /opt/radiodan/apps/radiodan-client-podcast/init.d/radiodan-huffduffer /etc/init.d/
+</code>
+<br />
+<code>
 $ sudo cp /opt/radiodan/apps/radiodan-client-podcast/init.d/radiodan-nfc /etc/init.d/
 </code>
 
@@ -187,22 +227,30 @@ and add these to Monit
 <code>$ sudo cp /opt/radiodan/apps/radiodan-client-podcast/init.d/radiodan-type-huffduffer /etc/monit/monitrc.d/</code>
 
 Change the config file for the physical UI:
-
 <code>$ sudo pico /etc/init.d/radiodan-buttons</code>
 
 change
+<br />
 <code>DAEMON_OPTS="/opt/radiodan/apps/magic/current/config/physical-ui-config.json"</code>
+<br />
 to
 <code>DAEMON_OPTS="/opt/radiodan/apps/radiodan-client-podcast/config/physical-ui-config.json"</code>
 
 Make a small edit to the buttons interface:
 <code>
 $ sudo pico /opt/radiodan/apps/buttons/current/lib/bootstrap.js</code>
-
+<br />
+<code>
 // Reverse the polarity of the neutron flow
+</code>
+<br />
+<code>
 // rgbOpts.reverse = true;
-
+</code>
+<br />
+<code>
 ^^^ comment out this line, like this
+</code>
 
 Switch to the new app type
 
