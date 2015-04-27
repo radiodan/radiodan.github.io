@@ -21,7 +21,7 @@ I really like this way of working. You end up with a fluid back-and-forth about 
 do, and there's something about having a picture that conveys what you are talking about in an
 engaging manner with an immediacy that's lacking in a written description.
 
-<img src="/assets/wrong_radio1.jpg" "A wrong radio" width="500" />
+![A wrong radio](/assets/wrong_radio1.jpg "A wrong radio")
 
 I don't know why it works so well - these are scribbles really. [@psd](https://twitter.com/psd)
 and [@evalottchen](https://twitter.com/evalottchen) do beautiful and engaging pictures but these
@@ -42,19 +42,20 @@ amazed at how well it went, and how enthusiastic people were about it, and at th
 that people came up with. You can see most of them in the [Flickr
 pool](http://www.flickr.com/groups/2386878@N23/). Here's one of my favourites:
 
-<img src="/assets/robin.jpg" "Robin's radio" width="500" />
+
+![Robin's Radio](/assets/robin.jpg "Robin's radio")
 
 <i>Robin / Philip: always filter this out; mute when phone rings; fast forward button; dammit I missed that; kill button on a remote and then a backup one in case you don't make it there in time.</i>
 
 and another:
 
-<img src="/assets/matt.jpg" "Matt's radio" width="500" />
+![Matt's radio](/assets/matt.jpg "Matt's radio")
 
 <i>Matt: hit the button and you get something from In Our Time on the subject (there probably is something!)</i>
 
 and another:
 
-<img src="/assets/psd.jpg" "Paul's radio" width="500" />
+![Paul's radio](/assets/psd.jpg "Paul's radio")
 
 <i>Paul said: "My radio is mostly fine - my only interaction is when John Humphries comes on - so this allows you to give him a stroke when he's nice but give him an electric shock when e.g. he talks about science"</i>
 
