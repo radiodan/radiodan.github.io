@@ -6,6 +6,11 @@ with other sources of audio. It can
 run on most UNIX-based operating systems, with particular emphasis on
 [Raspbian](http://www.raspbian.org/).
 
+You can look at [showcases](http://radiodan.net/showcase/) we have made 
+with the Open Source [code](https://github.com/radiodan), and read more 
+about [what it's 
+for](http://planb.nicecupoftea.org/2015/01/27/what-is-radiodan-for/).
+
 <h2>Why?</h2>
 We're interested in different kinds of physical radio
 devices and how we might change their functionality to make them better. We
