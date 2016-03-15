@@ -8,11 +8,12 @@
 
     npm start
 
+You should hear a cheer as it starts up.
+
 ### Go to [http://localhost:5000](http://localhost:5000) in a browser
 
 Control the sound from the web page.
 
 <img src="/assets/skeleton_app_screenshot.png" alt="Screenshot of the 
 skeleton app in a browser"/>
-
 

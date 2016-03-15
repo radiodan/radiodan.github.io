@@ -21,10 +21,14 @@ Linux: Steps
     sudo apt-get update
     sudo apt-get install mpd
 
-### Install and start rabbitmq
+### Install golang
 
-    sudo apt-get install rabbitmq
-    rabbitmq-server
+    sudo apt-get install -y golang
+
+### Install zeromq
+
+    sudo apt-get install -y --force-yes libzmq3 libzmq3-dev
+    sudo apt-get install zeromq
 
 ### Install node.js
 

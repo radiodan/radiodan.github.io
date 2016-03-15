@@ -18,10 +18,13 @@ Mac OS X: Steps
     brew update
     brew install mpd
 
-### Install rabbitmq
+### Install zeromq
 
-    brew install rabbitmq
-    rabbitmq-server
+    brew install zeromq
+
+### Install golang
+
+    brew install golang
 
 ### Install node.js
 
@@ -49,3 +52,32 @@ fix:
 
 Ensure the sound's turned up on your laptop / machine (obvious, but mine wasn't).
 
+### zeromq library mismatch problem
+
+If you get an error like
+
+    16:03:01 broker.1 |  dyld: Library not loaded: /usr/local/lib/libzmq.4.dylib
+    16:03:01 broker.1 |  Referenced from: /Users/libbym/radiodan-skeleton/node_modules/.bin/radiodan…
+    16:03:01 broker.1 |  Reason: image not found
+
+First kill the server with Control-c.
+
+Then recompile the broker, like this:
+
+    mkdir work
+    export GOPATH=$PWD/work
+    export PATH=$PATH:$GOPATH/bin
+    mkdir -p $GOPATH/src/github.com/radiodan
+    cd $GOPATH/src/github.com/radiodan
+    git clone https://github.com/radiodan/broker
+    cd broker
+    go get github.com/tools/godep
+    $GOPATH/bin/godep restore
+    go install
+
+    cd radiodan-skeleton
+    cp $GOPATH/bin/broker node_modules/.bin/radiodan-broker
+
+Then start the server again
+
+    npm start
