@@ -9,7 +9,7 @@ run on most UNIX-based operating systems, with particular emphasis on
 You can look at [showcases](http://radiodan.net/showcase/) we have made with 
 the Open Source [code](https://github.com/radiodan), and read more about 
 [what it's 
-for](http://planb.nicecupoftea.org/2015/01/27/what-is-radiodan-for/). Or [get 
+for](https://planb.nicecupoftea.org/2015/09/09/radiodan-part-1-expanding-the-overton-window-for-radios/). Or [get 
 started](/help) making a radio right away.
 
 <h2>Why?</h2>
