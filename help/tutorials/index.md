@@ -6,12 +6,13 @@ title:  "Tutorials"
 ### I want to...
 
 * [Try the software on my laptop / desktop](simplest-radio-laptop.html) (partial)
-* [Try the software on a Raspberry Pi](basic-pi-radio.html)
-* [Make and build a case to put it in](make-a-case.html) (partial)
-* [Add buttons and dials](buttons-and-dials.html) (not done)
-
-
+* [Try the software on a Raspberry Pi](../)
+* [Make and build a case to put it in](make-a-case.html) (
 * [Make my own radio that does something else](start-hacking.html) (partial)
+<!--
+* [Add buttons and dials](buttons-and-dials.html) 
+-->
+
 
 
 <!---
