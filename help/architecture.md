@@ -14,7 +14,7 @@ Digging deeper, the toolkit is made up of components, a mixture of open source s
 
 Each component is isolated from all the others and runs independently, communicating by sending messages to the other components via a central event bus.
 
-We've built a client library in JavaScript makes it easy to talk to the system from prototype apps, either in a web browser or from a node.js application.
+We've built a client library in JavaScript, which makes it easy to talk to the system from prototype apps, either in a web browser or from a node.js application.
 
 <img src="assets/what-is-radiodan-toolkit-diagram.svg">
 
@@ -23,14 +23,12 @@ We've built a client library in JavaScript makes it easy to talk to the system f
 
 The toolkit works just as well for building media prototypes that run in the cloud, or working on powerful computers. But some parts of the toolkit are specifically aimed at helping embedded linux devices such as the Raspberry Pi to help create a believable radio-like experience.
 
-<p class="note">We've produced a Raspberry Pi disk image that makes it easy to create your own internet radio. <a href="/help/tutorials/build-radio.html">Read the instructions.</a></p>
-
 Core components
 ---
 
 ### Event Bus
 
-We use [RabbitMQ](https://www.rabbitmq.com/) as the messaging layer. There are clients for many different languages meaning that you can write prototype apps in many languages.
+We use a [broker](https://github.com/radiodan/broker) written in Go over [ZeroMQ](http://zeromq.org/) for the messaging layer. There are clients for many different languages meaning that you can write prototype apps in many languages.
 
 [Read more about the messaging layer, and the format of messages.](/help/software/messaging.html)
 
@@ -51,18 +49,6 @@ Connects to the GPIO pins on a Raspberry Pi and emits events when a button is pr
 
 ### Wifi configuration
 
-On start-up, if no wifi network is joined, the Pi will create it's own wifi network, the default name is `radiodan-configuration`. Join this wifi network to configure the wifi details for the radio to join.
-
-### Cease shutdown daemon
-
-Listens to messages on the event bus and executes `shutdown` or `reboot` commands from applications. Allows the Raspberry Pi to be safely shutdown before being unplugged.
-
-[Source code](https://github.com/radiodan/cease)
-
-### Updater
-
-Polls for software updates to the suite of radiodan applications and downloads and installs them.
-
-[Source code](https://github.com/radiodan/updater)
+On start-up, if no wifi network is joined, the Pi will create its own wifi network, the default name is `radiodan-configuration`. Join this wifi network to configure the wifi details for the radio to join. This [code](https://github.com/radiodan/resin-wifi-connect) is forked from the [Resin project](https://github.com/resin-io/resin-wifi-connect).
 
 
