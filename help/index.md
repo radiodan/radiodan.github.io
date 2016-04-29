@@ -1,9 +1,28 @@
 ---
 layout: page
 title:  "Help - Quick Start"
+subnav:
+  -
+    title: "Raspberry Pi"
+    href: "#pi"
+  -
+    title: "Audio"
+    href: "#audio"
+  -
+    title: "Wifi"
+    href: "#wifi"
+  -
+    title: "Architecture"
+    href: "#arch"
+  -
+    title: "Case"
+    href: "#case"
+  -
+    title: "PCB"
+    href: "#pcb"
 ---
 
-# Quick start
+# Quick Start
 
 Radiodan is designed to be run on a Raspberry Pi 3, 2 or zero. It doesn't 
 currently install on a Pi B or B+.
@@ -14,7 +33,7 @@ Some examples of what you can do with it are on the [showcases](/showcases) page
 
 More detailed instructions are in the [tutorials](/help/tutorials/) pages.
 
-## Quick start on a Pi
+<h2 id="pi">Raspberry Pi</h2>
 
 You will need:
 
@@ -61,7 +80,7 @@ wifi, and you will be able to go to
 [http://radiodan.local](http://radiodan.local) in a browser and play some 
 audio files that way.
 
-#### Troubleshooting
+### Troubleshooting
 
 * No access point: check that your wifi has the right chipset - RT5370
 * [http://radiodan.local](http://radiodan.local) doesn't work: some networks 
@@ -70,7 +89,7 @@ Alternatively if you are on an Andoird phone, ```.local``` urls are not supporte
 but if you can find the IP addresss of the pi, then you can still control 
 it.
 
-### Audio 
+<h2 id="audio">Audio</h2>
 
 By default radiodan will use the 3.5mm jack output, but the Pi's built in 
 audio is quite poor. We have head the most success with a [Phat 
@@ -82,23 +101,23 @@ You can also use a USB sound card (which might be useful if you want to have
 a microphone), or HDMI via some HDMI to VGI converters (might be useful for 
 a Zero).
 
-#### Using DAC audio
+### Using DAC audio
 
-Use the [Phat DAC guide](http://learn.pimoroni.com/tutorial/phat/raspberry-pi-phat-dac-install) forr setup.
+Use the [Phat DAC guide](http://learn.pimoroni.com/tutorial/phat/raspberry-pi-phat-dac-install) for setup.
 
-#### Using USB audio
+### Using USB audio
 
 @@
 
-#### Using HDMI audio via a VGA adaptor
+### Using HDMI audio via a VGA adaptor
 
 
-### Wifi
+<h2 id="wifi">Wifi</h2>
 
 If you want to use the wifi part only, you can follow the instructions 
 [here](https://planb.nicecupoftea.org/2016/03/20/wifi-connect-quick-wifi-access-point-to-tell-a-raspberry-pi-about-a-wifi-network/).
 
-### Developing
+<h2 id="dev">Developing</h2>
 
 The [skeleton app](https://github.com/radiodan/radiodan-skeleton), written 
 by Andrew Nicolaou, shows the basic workings of radiodan, and illustrates 
@@ -114,9 +133,10 @@ The main things to know are:
 * logs are in ```/var/log/radiodan/*``` which is controlled by the files in ```/etc/supervisor/conf.d/``` directory
 * more on [architecture](help/architecture.html) 
 * [full documentation](http://radiodan-client.readthedocs.org)
-* Buttons and dials are separate - seee bwlow - and you may also want to check out the Radiodan PCB.
+* Buttons and dials are separate - seee below - and you may also want to check out the Radiodan PCB.
 
-### Buttons and dials
+<h2 id="buttons">Buttons and dials</h2>
+
 
 To use the buttons and dials, you need to do this:
 
@@ -141,31 +161,29 @@ plays, the light goes green. It returns to white when nothing is playing.
 
 More documentation [is available](http://radiodan-client.readthedocs.org/en/latest/usage/physical-buttons-and-interface/)
 
-## More detail
-
-### Architecture
+<h2 id="arch">Architecture</h2>
 
 [Radiodan architecture documentation is available](/help/architecture.html).
 
-### Building a case
+<h2 id="case">Building a case</h2>
 
 The case was designed by Victor Johanssen. We ahve [laser cutting 
 templates](https://github.com/radiodan/hardware/tree/master/case) and 
 [instructions for making them](/help/tutorials/make-a-case.html).
 
-### The Radiodan PCB
+<h2 id="#pcb">The Radiodan PCB</h2>
 
-Itis difficult to fit many buttons and dials on a Raspberry Pi, so we had a 
+It is difficult to fit many buttons and dials on a Raspberry Pi, so we had a 
 PCB designed for us. It enables the use of two illuminated RGB push-button 
 dials and a simple button.
 
-#### Open Source files
+### Open Source files
 
 The PCB files are available 
 [online](https://github.com/radiodan/hardware/tree/master/pcb). The
 components part numbers are in the PDF of the PCB documentation.
 
-#### Soldering the PCB
+### Soldering the PCB
 
 This can be a little confusing, so here are [step by step instructions](https://github.com/radiodan-archive/project/blob/master/docs/physical_ui_pcb_v1.md).
 
