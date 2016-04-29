@@ -167,7 +167,7 @@ More documentation [is available](http://radiodan-client.readthedocs.org/en/late
 
 <h2 id="case">Building a case</h2>
 
-The case was designed by Victor Johanssen. We ahve [laser cutting 
+The case was designed by Victor Johanssen. We have [laser cutting 
 templates](https://github.com/radiodan/hardware/tree/master/case) and 
 [instructions for making them](/help/tutorials/make-a-case.html).
 
