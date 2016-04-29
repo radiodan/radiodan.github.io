@@ -19,17 +19,17 @@ subnav:
 
 <h2 id="people">About us</h2>
 
-Dan, Andrew and Libby at BBC R&D are the main people working on Radiodan at the moment, with Dan 
-focused on the core Radiodan code, Andrew working on the physical interface and example app, and 
-Libby doing rough prototypes, testing and docs. Contact Libby in the first instance for help - by 
-Twitter is best - [@libbymiller](http://twitter.com/libbymiller).
+Dan, Andrew and Libby are the main people working on Radiodan at the moment, 
+with Dan focused on the core Radiodan code, Andrew working on the physical 
+interface and example app, and Libby doing rough prototypes, testing and 
+docs. Contact Libby in the first instance for help - by Twitter is best - 
+[@libbymiller](http://twitter.com/libbymiller).
 
 A bit more about us:
 
-[Andrew Nicolaou](http://www.bbc.co.uk/rd/people/andrew-nicolaou) [@andrewn](http://twitter.com/andrewn) is a User Interface Developer for BBC R&D. He's interested in prototyping future 
-connected experiences across TV, radio and online, particularly using emerging web technologies and tangible interfaces.
+[Andrew Nicolaou](http://andrewnicolaou.co.uk/) [@andrewn](http://twitter.com/andrewn) is a developer interested in the web, connected products and interaction design.
 
-Daniel Nuttall [@pixelblend](http://twitter.com/pixelblend) is a Software engineer for Internet Research and Future Services in BBC R&D. He has 
+[Daniel Nuttall](http://pixelblend.co.uk/) [@pixelblend](http://twitter.com/pixelblend) is a Software engineer for Internet Research and Future Services in BBC R&D. He has 
 worked for a range of companies in Europe and Africa, building web sites, browser extensions, 
 servers and everything in between using open-source software.
 
