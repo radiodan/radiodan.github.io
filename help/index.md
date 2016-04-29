@@ -12,6 +12,8 @@ You can also [run it on Mac or Linux](/help/tutorials/simplest-radio-laptop.html
 
 Some examples of what you can do with it are on the [showcases](/showcases) page.
 
+More detailed instructions are in the [tutorials](/help/tutorials/) pages.
+
 ## Quick start on a Pi
 
 You will need:
