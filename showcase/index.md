@@ -8,6 +8,16 @@ title:  "Showcase"
 The idea of Radiodan is that anyone should be able to make an interesting 
 radio. To make sure this is possible, we've been making our own.
 
+<h2>A Radio 3 "Red Button" prototype</h2>
+
+A prototype made for Connected Studio, which allows you to switch between 
+different strands of audio for a particular programme.
+
+<iframe src="//player.vimeo.com/video/161914993" width="500" height="281" 
+frameborder="0" webkitallowfullscreen mozallowfullscreen 
+allowfullscreen></iframe> 
+
+
 <h2>Magic Button Radio</h2>
 
 The Magic Button radio is a fully-functional radio with a customisable 
