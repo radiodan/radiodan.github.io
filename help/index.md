@@ -37,18 +37,18 @@ More detailed instructions are in the [tutorials](/help/tutorials/) pages.
 
 You will need:
 
-1. Pi 2, 3 or Zero
-2. 8G or more micro SD card
+1. Raspberry Pi 2, 3 or Zero
+2. 8G or more micro SD card. 4G isn't big enough.
 3. 3.5mm-jack speaker
-4. if on a Zero: a DAC or HDMI to VGA adaptor
-5. if on a Pi 2 or Zero: a USB wifi card with a [specific chipset - RT5370 - see this post for more detail](https://planb.nicecupoftea.org/2015/01/23/a-quick-analysis-of-wifi-cards-for-using-a-raspberry-pi-as-an-access-point/)
-6. if on a Zero: usb micro to USB A adaptor
-7. power supple for the Pi
-8. Laptop and ethernet cable; SD card reader
+4. if on a Zero: a [DAC](https://shop.pimoroni.com/products/phat-dac) or HDMI to VGA adaptor
+5. if on a Pi 2 or Zero: a [supported wifi USB dongle](https://github.com/resin-io/resin-wifi-connect)
+6. if on a Zero: USB micro to USB A adaptor
+7. power supply for the Pi
+8. laptop and ethernet cable; SD card reader
 
 Download the latest [Raspian Jessie](https://www.raspberrypi.org/downloads/raspbian/).
 
-On a laptop, SD card inserted into a reader, 
+On a Mac laptop, SD card inserted into a reader, 
 
     diskutil list
     diskutil unmountDisk /dev/diskn
@@ -57,35 +57,53 @@ On a laptop, SD card inserted into a reader,
 ("n" was "2" for me. If you are unsure about this, use the [official 
 guide to installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/) for the Pi).
 
-Put the card in the Pi.
+Put the SD card in the Pi, plug the speaker into the Pi's 3.5mm jack and power it up.
 
-Log in, expand the card, reboot, log in again, then:
+Log in, expand the filesystem (via ```sudo raspi-config```, reboot, log in again, then install Radiodan:
 
     git clone https://github.com/radiodan/provision
     cd provision
     git fetch origin
     git checkout -b minimal origin/minimal
+
+**Warning: ```provision all``` deletes a lot of programmes that Radiodan doesn't need, e.g the Desktop, Scratch etc. Don't use this command if you are using the Raspberry Pi card for something else.**
+
     sudo ./provision all
 
-If you have a Pi 3, you need to additionally do the following, to enable the 
+You should hear a cheer when it installs successfully. 
+
+If you have a Pi 3, you additionally need do the following, to enable the 
 wifi to work as an access point:
 
     sudo apt-get install raspi-config
     sudo BRANCH=next rpi-update
 
-then reboot. On your laptop or phone you should see a new wifi network 
-called ```"radiodan-configuration"```. Connect to that, tell it the wifi you 
-want it to connect to using the browser popup window, reconnect to that 
-wifi, and you will be able to go to 
-[http://radiodan.local](http://radiodan.local) in a browser and play some 
-audio files that way.
+then reboot. 
+
+You'll hear a cheer again as it starts up. On your laptop or phone you 
+should see a new wifi network called ```"radiodan-configuration"```. Connect 
+to that, tell it the wifi details you want it to connect to using the browser popup 
+window (if no window appears, go to any url).
+
+Reconnect your phone or laptop to that same wifi, and you will be able to 
+go to [http://radiodan.local](http://radiodan.local) in a browser and play 
+some audio files that way.
 
 ### Troubleshooting
 
-* No access point: check that your wifi has the right chipset - RT5370
-* [http://radiodan.local](http://radiodan.local) doesn't work: some networks 
-don't allow UDP packets - in this case this part of Radiodan will not work. 
-Alternatively if you are on an Andoird phone, ```.local``` urls are not supported, 
+#### No access point appears 
+
+Check that your wifi has the right chipset - RT5370. The official Raspberry Pi wifi USB dongles **don't**.
+More information about supported dongles is on the [Resin wifi page](https://github.com/resin-io/resin-wifi-connect)
+
+#### [http://radiodan.local](http://radiodan.local) doesn't work
+
+Some networks don't allow UDP packets - in this case you will not be able to 
+control Radiodan via another device. We have had some trouble with certain 
+corporate networks, networks that work via the power supply and some local 
+Android hotspots.
+
+Alternatively if you are on an Android phone, ```.local``` urls are not supported, 
 but if you can find the IP addresss of the pi, then you can still control 
 it.
 
@@ -94,12 +112,14 @@ it.
 By default radiodan will use the 3.5mm jack output, but the Pi's built in 
 audio is quite poor. We have head the most success with a [Phat 
 DAC](https://shop.pimoroni.com/products/phat-dac) - a board that requires 
-soldering but fits onto the GPIO of your Pi. It's designe dofr the Zero but 
+soldering but fits onto the GPIO of your Pi. It's designed for the Zero but 
 works with the Pi 2 and 3 too.
 
 You can also use a USB sound card (which might be useful if you want to have 
 a microphone), or HDMI via some HDMI to VGI converters (might be useful for 
 a Zero).
+
+You can ssh to your Radiodan from a machine on the same network using ```ssh pi@radiodan.local```, password ```raspberry```.
 
 ### Using DAC audio
 
@@ -107,10 +127,25 @@ Use the [Phat DAC guide](http://learn.pimoroni.com/tutorial/phat/raspberry-pi-ph
 
 ### Using USB audio
 
-@@
+    sudo rm /etc/modprobe.d/alsa-base.conf 
+
+reboot, then 
+
+    aplay -l
+
+should say something like
+
+    card 1: Device [USB Audio Device], device 0: USB Audio [USB Audio]
+
+edit ```/usr/share/alsa/alsa.conf``` - look for the part saying ```defaults.ctl.card``` and edit it to match that line from ```aplay - l```. In my case:
+
+    defaults.ctl.card 1
+    defaults.pcm.card 1
+    defaults.pcm.device 0
 
 ### Using HDMI audio via a VGA adaptor
 
+There are [official instructions for forcing HDMI audio output](https://www.raspberrypi.org/documentation/configuration/audio-config.md)
 
 <h2 id="wifi">Wifi</h2>
 
@@ -129,7 +164,7 @@ with the skeleton app which you can go in and edit.
 The main things to know are:
 
 * The [skeleton app](https://github.com/radiodan/radiodan-skeleton) is installed in ```/opt/radiodan/apps/skeleton``` (it may help to do ```chown -R pi:pi``` in that directory)
-* everything's controlled by supervisor, so you can see what's running using ```sudo supervisorctl status``` and restart a component using ```sudo supervisorctl restart [name]```
+* everything is controlled by supervisor, so you can see what's running using ```sudo supervisorctl status``` and restart a component using ```sudo supervisorctl restart [name]```
 * logs are in ```/var/log/radiodan/*``` which is controlled by the files in ```/etc/supervisor/conf.d/``` directory
 * more on [architecture](help/architecture.html) 
 * [full documentation](http://radiodan-client.readthedocs.org)
@@ -137,8 +172,9 @@ The main things to know are:
 
 <h2 id="buttons">Buttons and dials</h2>
 
-
-To use the buttons and dials, you need to do this:
+To use the buttons and dials, you need to first attach sme buttons and 
+dials. Because of the limited number of GPIO pins, the easiest way of doing 
+this is with the <a href="#pcb">Radiodan PCB</a>.
 
 Get the latest skeleton with the physical-ui server as a dependency
 
