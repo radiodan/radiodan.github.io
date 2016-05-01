@@ -174,11 +174,11 @@ You can ssh to your Radiodan from a machine on the same network using ```ssh pi@
 The main things to know are:
 
 * The [skeleton app](https://github.com/radiodan/radiodan-skeleton) is installed in ```/opt/radiodan/apps/skeleton``` (it may help to do ```chown -R pi:pi``` in that directory)
-* everything is controlled by supervisor, so you can see what's running using ```sudo supervisorctl status``` and restart a component using ```sudo supervisorctl restart [name]```
-* logs are in ```/var/log/radiodan/*``` which is controlled by the files in ```/etc/supervisor/conf.d/``` directory
-* more on [architecture](help/architecture.html) 
-* [full documentation](http://radiodan-client.readthedocs.org)
-* Buttons and dials are separate - see below - and you may also want to check out the Radiodan PCB.
+* Everything is controlled by supervisor, so you can see what's running using ```sudo supervisorctl status``` and restart a component using ```sudo supervisorctl restart [name]```
+* Logs are in ```/var/log/radiodan/*``` which is controlled by the files in ```/etc/supervisor/conf.d/``` directory
+* More on [architecture](help/architecture.html) 
+* [Full documentation](http://radiodan-client.readthedocs.org)
+* Buttons and dials are separate - see below - and you may also want to check out the <a href="#pcb">Radiodan PCB</a>.
 
 <h2 id="buttons">Buttons and dials</h2>
 
