@@ -66,7 +66,7 @@ Log in, expand the filesystem (via ```sudo raspi-config```), reboot, log in agai
     git fetch origin
     git checkout -b minimal origin/minimal
 
-**Warning: ```provision all``` deletes a lot of programmes that Radiodan doesn't need, e.g the Desktop, Scratch etc. Don't use this command if you are using the Raspberry Pi card for something else.**
+**Warning: ```provision all``` deletes a lot of programmes that Radiodan doesn't need, e.g the Desktop, Scratch etc. Don't use this command if you are using the Raspberry Pi installation for something else.**
 
     sudo ./provision all
 
