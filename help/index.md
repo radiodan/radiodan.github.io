@@ -145,7 +145,13 @@ edit ```/usr/share/alsa/alsa.conf``` - look for the part saying ```defaults.ctl.
 
 ### Using HDMI audio via a VGA adaptor
 
-There are [official instructions for forcing HDMI audio output](https://www.raspberrypi.org/documentation/configuration/audio-config.md)
+Uncomment these two libes in ```/boot/config.txt```
+
+    # uncomment to force a specific HDMI mode (this will force VGA)
+    hdmi_group=1
+    hdmi_mode=1
+
+and reboot. 
 
 <h2 id="wifi">Wifi</h2>
 
