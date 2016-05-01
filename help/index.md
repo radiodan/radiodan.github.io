@@ -25,7 +25,8 @@ subnav:
 # Quick Start
 
 Radiodan is designed to be run on a Raspberry Pi 3, 2 or zero. It doesn't 
-currently install on a Pi B or B+.
+currently run well on a Pi A, B, or B+, although if, like me, you build the 
+card on a B+, the result will run fine on a Zero.
 
 You can also [run it on Mac or Linux](/help/tutorials/simplest-radio-laptop.html), minus the buttons, dials, lights etc.
 
@@ -40,11 +41,11 @@ You will need:
 1. Raspberry Pi 2, 3 or Zero
 2. 8G or more micro SD card. 4G isn't big enough.
 3. 3.5mm-jack speaker
-4. if on a Zero: a [DAC](https://shop.pimoroni.com/products/phat-dac) or HDMI to VGA adaptor
-5. if on a Pi 2 or Zero: a [supported wifi USB dongle](https://github.com/resin-io/resin-wifi-connect)
-6. if on a Zero: USB micro to USB A adaptor
-7. power supply for the Pi
-8. laptop and ethernet cable; SD card reader
+4. If on a Zero: a [DAC](https://shop.pimoroni.com/products/phat-dac) or HDMI to VGA adaptor (to keep the USB port free for the wifi)
+5. If on a Pi 2 or Zero: a [supported wifi USB dongle](https://github.com/resin-io/resin-wifi-connect)
+6. If on a Zero: a USB micro to USB A adaptor
+7. Power supply for the Pi
+8. Laptop and ethernet cable; SD card reader
 
 Download the latest [Raspian Jessie](https://www.raspberrypi.org/downloads/raspbian/).
 
@@ -223,13 +224,13 @@ It is difficult to fit many buttons and dials on a Raspberry Pi, so we had a
 PCB designed for us. It enables the use of two illuminated RGB push-button 
 dials and a simple button.
 
-### Open Source files
+#### Open Source files
 
 The PCB files are available 
 [online](https://github.com/radiodan/hardware/tree/master/pcb). The
 components part numbers are in the PDF of the PCB documentation.
 
-### Soldering the PCB
+#### Soldering the PCB
 
 This can be a little confusing, so here are [step by step instructions](https://github.com/radiodan-archive/project/blob/master/docs/physical_ui_pcb_v1.md).
 
