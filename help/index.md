@@ -41,9 +41,9 @@ You will need:
 1. Raspberry Pi 2, 3 or Zero
 2. 8G or more micro SD card. 4G isn't big enough.
 3. 3.5mm-jack speaker
-4. If on a Zero: a [DAC](https://shop.pimoroni.com/products/phat-dac) or HDMI to VGA adaptor (to keep the USB port free for the wifi)
+4. If on a Zero: a [DAC](https://shop.pimoroni.com/products/phat-dac) or [HDMI to VGA adaptor](https://thepihut.com/products/raspberry-pi-hdmi-to-vga-convertor?variant=758603141) (to keep the USB port free for the wifi)
 5. If on a Pi 2 or Zero: a [supported wifi USB dongle](https://github.com/resin-io/resin-wifi-connect)
-6. If on a Zero: a USB micro to USB A adaptor
+6. If on a Zero: a [USB micro to USB A adaptor](https://thepihut.com/products/usb-to-microusb-otg-converter-shim)
 7. Power supply for the Pi
 8. Laptop and ethernet cable; SD card reader
 
@@ -58,7 +58,10 @@ On a Mac laptop, SD card inserted into a reader,
 ("n" was "2" for me. If you are unsure about this, use the [official 
 guide to installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/) for the Pi).
 
-Put the SD card in the Pi, plug the speaker into the Pi's 3.5mm jack and power it up.
+(Asssuming you're using a Pi 2 or 3), put the SD card in the Pi, plug the 
+speaker into the Pi's 3.5mm jack and power it up. If you're on a Zero, do 
+the same, but you'll need to follow the <a href="#sound">instructions for 
+the DAC or HDMI audio below</a> before you hear anything.
 
 Log in, expand the filesystem (via ```sudo raspi-config```), reboot, log in again, then install Radiodan:
 
@@ -127,6 +130,8 @@ You can ssh to your Radiodan from a machine on the same network using ```ssh pi@
 Use the [Phat DAC guide](http://learn.pimoroni.com/tutorial/phat/raspberry-pi-phat-dac-install) for setup.
 
 ### Using USB audio
+
+[This USB audio adaptor](https://thepihut.com/collections/cables-leads/products/usb-audio-adapter) works well.
 
     sudo rm /etc/modprobe.d/alsa-base.conf 
 
