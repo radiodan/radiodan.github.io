@@ -74,15 +74,11 @@ Log in, expand the filesystem (via ```sudo raspi-config```), reboot, log in agai
 
     sudo ./provision all
 
+This part takes about 10 minutes on a 3, 30 minutes on a 2, and a bit longer on a Zero.
+
 You should hear a cheer when it installs successfully. 
 
-If you have a Pi 3, you additionally need do the following, to enable the 
-wifi to work as an access point:
-
-    sudo apt-get install raspi-config
-    sudo BRANCH=next rpi-update
-
-then reboot. 
+After that, then reboot. 
 
 You'll hear a cheer again as it starts up. On your laptop or phone you 
 should see a new wifi network called ```"radiodan-configuration"```. Connect 
