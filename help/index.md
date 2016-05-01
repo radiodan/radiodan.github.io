@@ -59,7 +59,7 @@ guide to installing operating system images](https://www.raspberrypi.org/documen
 
 Put the SD card in the Pi, plug the speaker into the Pi's 3.5mm jack and power it up.
 
-Log in, expand the filesystem (via ```sudo raspi-config```, reboot, log in again, then install Radiodan:
+Log in, expand the filesystem (via ```sudo raspi-config```), reboot, log in again, then install Radiodan:
 
     git clone https://github.com/radiodan/provision
     cd provision
@@ -109,8 +109,8 @@ it.
 
 <h2 id="audio">Audio</h2>
 
-By default radiodan will use the 3.5mm jack output, but the Pi's built in 
-audio is quite poor. We have head the most success with a [Phat 
+By default Radiodan will use the 3.5mm jack output, but the Pi's built in 
+audio is quite poor. We have had the most success with a [Phat 
 DAC](https://shop.pimoroni.com/products/phat-dac) - a board that requires 
 soldering but fits onto the GPIO of your Pi. It's designed for the Zero but 
 works with the Pi 2 and 3 too.
@@ -149,7 +149,9 @@ There are [official instructions for forcing HDMI audio output](https://www.rasp
 
 <h2 id="wifi">Wifi</h2>
 
-If you want to use the wifi part only, you can follow the instructions 
+If you want to use the wifi part of Radiodan only - for example if you want 
+to create another kind of device that needs a user-friendly way of getting 
+on the wifi network - you can follow the instructions 
 [here](https://planb.nicecupoftea.org/2016/03/20/wifi-connect-quick-wifi-access-point-to-tell-a-raspberry-pi-about-a-wifi-network/).
 
 <h2 id="dev">Developing</h2>
@@ -161,6 +163,8 @@ both serverside and clientside usage. You can see some extensions to this in
 example](https://github.com/radiodan-demos/r3_red_button). Radiodan ships 
 with the skeleton app which you can go in and edit.
 
+You can ssh to your Radiodan from a machine on the same network using ```ssh pi@radiodan.local```, password ```raspberry```.
+
 The main things to know are:
 
 * The [skeleton app](https://github.com/radiodan/radiodan-skeleton) is installed in ```/opt/radiodan/apps/skeleton``` (it may help to do ```chown -R pi:pi``` in that directory)
@@ -168,7 +172,7 @@ The main things to know are:
 * logs are in ```/var/log/radiodan/*``` which is controlled by the files in ```/etc/supervisor/conf.d/``` directory
 * more on [architecture](help/architecture.html) 
 * [full documentation](http://radiodan-client.readthedocs.org)
-* Buttons and dials are separate - seee below - and you may also want to check out the Radiodan PCB.
+* Buttons and dials are separate - see below - and you may also want to check out the Radiodan PCB.
 
 <h2 id="buttons">Buttons and dials</h2>
 
@@ -207,7 +211,7 @@ The case was designed by Victor Johanssen. We have [laser cutting
 templates](https://github.com/radiodan/hardware/tree/master/case) and 
 [instructions for making them](/help/tutorials/make-a-case.html).
 
-<h2 id="#pcb">The Radiodan PCB</h2>
+<h2 id="pcb">The Radiodan PCB</h2>
 
 It is difficult to fit many buttons and dials on a Raspberry Pi, so we had a 
 PCB designed for us. It enables the use of two illuminated RGB push-button 
