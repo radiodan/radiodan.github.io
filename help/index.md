@@ -87,7 +87,7 @@ then reboot.
 You'll hear a cheer again as it starts up. On your laptop or phone you 
 should see a new wifi network called ```"radiodan-configuration"```. Connect 
 to that, tell it the wifi details you want it to connect to using the browser popup 
-window (if no window appears, go to [http://radiodan.local](http://radiodan.local)).
+window (if no window appears, go to [http://radiodan.local:8080](http://radiodan.local:8080)).
 
 Reconnect your phone or laptop to that same wifi, and you will be able to 
 go to [http://radiodan.local](http://radiodan.local) in a browser and play 
