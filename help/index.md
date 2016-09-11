@@ -70,7 +70,7 @@ Log in, expand the filesystem (via ```sudo raspi-config```), reboot, log in agai
     git fetch origin
     git checkout -b minimal origin/minimal
 
-**Warning: ```provision all``` deletes a lot of programmes that Radiodan doesn't need, e.g the Desktop, Scratch etc. Don't use this command if you are using the Raspberry Pi installation for something else.**
+**Warning: ```provision all``` deletes a lot of programmes that Radiodan doesn't need, e.g games, Scratch etc. Don't use this command if you are using the Raspberry Pi installation for something else.**
 
     sudo ./provision all
 
@@ -95,6 +95,15 @@ some audio files that way.
 
 Check that your wifi has the right chipset - RT5370. The official Raspberry Pi wifi USB dongles **don't**.
 More information about supported dongles is on the [Resin wifi page](https://github.com/resin-io/resin-wifi-connect)
+
+#### Access point doesn't give you an IP address
+
+Occassioanlly I've had this with a Pi3. Solution is to log in and do this:
+
+    sudo apt-get install raspi-config
+    sudo BRANCH=next rpi-update
+
+and reboot
 
 #### [http://radiodan.local](http://radiodan.local) doesn't work
 
@@ -181,6 +190,23 @@ The main things to know are:
 * More on [architecture](help/architecture.html) 
 * [Full documentation](http://radiodan-client.readthedocs.org)
 * Buttons and dials are separate - see below - and you may also want to check out the <a href="#pcb">Radiodan PCB</a>.
+
+Here's a quick way I replaced the default skeleton app with another very simlpe restful one
+
+    cd /opt/radiodan
+    sudo chown -R pi:pi .
+    mv skeleton skeleton-old
+    git clone https://github.com/radiodan-demos/radiodan_restful.git
+    mv radiodan_restful skeleton
+    cd skeleton
+    npm install
+    sudo supervisorctl restart radiodan:radiodan-app-1 
+    sudo tail -f /var/log/radiodan-app-1.std*
+  
+and then on a machine on the same network:
+
+    curl http://radiodan.local/play
+    curl http://radiodan.local/stop
 
 <h2 id="buttons">Buttons and dials</h2>
 
