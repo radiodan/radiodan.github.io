@@ -47,13 +47,15 @@ You will need:
 7. Power supply for the Pi
 8. Laptop and ethernet cable; SD card reader
 
+The full bill of materials for a complete Radiodan is [here](https://github.com/radiodan/hardware/tree/master/bom).
+
 Download the latest [Raspian Jessie](https://www.raspberrypi.org/downloads/raspbian/).
 
 On a Mac laptop, SD card inserted into a reader, 
 
     diskutil list
     diskutil unmountDisk /dev/diskn
-    sudo dd bs=1m if=~/Downloads/2016-03-18-raspbian-jessie.img of=/dev/rdiskn
+    sudo dd bs=1m if=~/Downloads/2016-09-23-raspbian-jessie.img of=/dev/rdiskn
 
 ("n" was "2" for me. If you are unsure about this, use the [official 
 guide to installing operating system images](https://www.raspberrypi.org/documentation/installation/installing-images/) for the Pi).
@@ -67,8 +69,6 @@ Log in, expand the filesystem (via ```sudo raspi-config```), reboot, log in agai
 
     git clone https://github.com/radiodan/provision
     cd provision
-    git fetch origin
-    git checkout -b minimal origin/minimal
 
 **Warning: ```provision all``` deletes a lot of programmes that Radiodan doesn't need, e.g games, Scratch etc. Don't use this command if you are using the Raspberry Pi installation for something else.**
 
@@ -98,7 +98,7 @@ More information about supported dongles is on the [Resin wifi page](https://git
 
 #### Access point doesn't give you an IP address
 
-Occassioanlly I've had this with a Pi3. Solution is to log in and do this:
+Occassionally I've had this with a Pi3. Solution is to log in and do this:
 
     sudo apt-get install raspi-config
     sudo BRANCH=next rpi-update
@@ -136,23 +136,36 @@ Use the [Phat DAC guide](http://learn.pimoroni.com/tutorial/phat/raspberry-pi-ph
 
 ### Using USB audio
 
-[This USB audio adaptor](https://thepihut.com/collections/cables-leads/products/usb-audio-adapter) works well.
+[This USB audio adaptor](https://thepihut.com/collections/cables-leads/products/usb-audio-adapter) works well, as does [this Sweetex one](http://www.ebay.co.uk/itm/271995751396).
 
-    sudo rm /etc/modprobe.d/alsa-base.conf 
+USB audio on the Pi is something of a dark art, but we've found this works consistently:
 
-reboot, then 
 
-    aplay -l
+remove the default driver
 
-should say something like
+    sudo nano /etc/modules                
 
-    card 1: Device [USB Audio Device], device 0: USB Audio [USB Audio]
+comment out
 
-edit ```/usr/share/alsa/alsa.conf``` - look for the part saying ```defaults.ctl.card``` and edit it to match that line from ```aplay - l```. In my case:
+    #snd-bcm2835
 
-    defaults.ctl.card 1
-    defaults.pcm.card 1
-    defaults.pcm.device 0
+stop it loading
+
+    sudo nano /boot/config.txt                                                                                  # Enable audio (loads snd_bcm2835)
+
+comment out 
+
+    #dtparam=audio=on 
+
+allow the USB one to load
+
+    sudo nano /lib/modprobe.d/aliases.conf
+
+comment out
+
+    #options snd-usb-audio index=-2
+
+and reboot
 
 ### Using HDMI audio via a VGA adaptor
 
@@ -172,6 +185,8 @@ on the wifi network - you can follow the instructions
 [here](https://planb.nicecupoftea.org/2016/03/20/wifi-connect-quick-wifi-access-point-to-tell-a-raspberry-pi-about-a-wifi-network/).
 
 <h2 id="dev">Developing</h2>
+
+<b>Contact us if you want to do this - we're currently working on a much simpler version!</b>
 
 The [skeleton app](https://github.com/radiodan/radiodan-skeleton), written 
 by Andrew Nicolaou, shows the basic workings of radiodan, and illustrates 
@@ -255,7 +270,7 @@ dials and a simple button.
 
 The PCB files are available 
 [online](https://github.com/radiodan/hardware/tree/master/pcb). The
-components part numbers are in the PDF of the PCB documentation.
+components part numbers are in the PDF of the PCB documentation and there's also a [bill of materials](https://github.com/radiodan/hardware/tree/master/bom).
 
 #### Soldering the PCB
 
