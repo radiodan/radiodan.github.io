@@ -9,6 +9,6 @@ A github.io blog for Radiodan
     git install bundle
     bundle install
 
-# erve locally
+# Serve locally
 
     bundle exec jekyll serve

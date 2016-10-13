@@ -256,9 +256,10 @@ More documentation [is available](http://radiodan-client.readthedocs.org/en/late
 
 <h2 id="case">Building a case</h2>
 
-The case was designed by [Victor Johanssen](http://www.objectsandinteractions.com/). We have [laser cutting 
-templates](https://github.com/radiodan/hardware/tree/master/case) and 
-[instructions for making them](/help/tutorials/make-a-case.html).
+The case was designed by [Victor 
+Johanssen](http://www.objectsandinteractions.com/). We have [laser cutting templates](https://github.com/radiodan/hardware/tree/master/case) and [instructions for making them](/help/tutorials/make-a-case.html). Our 
+current recommendation is to use the wide version of the case with the 
+current [bill of materials](https://github.com/radiodan/hardware/tree/master/bom).
 
 <h2 id="pcb">The Radiodan PCB</h2>
 
@@ -269,8 +270,10 @@ dials and a simple button.
 #### Open Source files
 
 The PCB files are available 
-[online](https://github.com/radiodan/hardware/tree/master/pcb). The
-components part numbers are in the PDF of the PCB documentation and there's also a [bill of materials](https://github.com/radiodan/hardware/tree/master/bom).
+[online](https://github.com/radiodan/hardware/tree/master/pcb) and we've 
+successfullly had them made by [Dirty PCB](http://dirtypcbs.com) and [OSHPark](https://oshpark.com). The component part 
+numbers are in the PDF of the PCB documentation and there's also a [bill 
+of materials](https://github.com/radiodan/hardware/tree/master/bom) with sources.
 
 #### Soldering the PCB
 
