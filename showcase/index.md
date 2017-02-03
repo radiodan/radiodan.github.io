@@ -3,10 +3,31 @@ layout: page
 title:  "Showcase"
 ---
 
-<h1>Examples of what we've made with Radiodan so far</h1>
+<h1>Examples of what we (and others) have made with Radiodan so far</h1>
 
-The idea of Radiodan is that anyone should be able to make an interesting 
-radio. To make sure this is possible, we've been making our own.
+The idea of Radiodan is that anyone should be able to make an 
+interesting radio. To make sure this is possible, we've been making our 
+own, and one or two others have been making them too.
+
+<h2>BuckleyWilliams' Bulletin</h2>
+
+The beautiful <a 
+href="http://buckleywilliams.com/case-studies/bulletin/">Bulletin</a> 
+was made as "a small, almost pocket-sized radio device that’s connected 
+to the internet. It aims to keep you informed about things you might be 
+interested in. It will tell you the weather, the time, cricket scores, 
+latest tweets from your friends, latest blog posts from kottke.org, 
+these kinds of things."
+
+<h2>Project Bedtime</h2>
+
+An extremely quick prototype made as part of our "Tellybox" work in BBC 
+R&D. It's a stand-alone binaural ambient BBC player with a remote 
+control on a pi Zero with a Phat DAC, using [Andrew 
+Nicolaou's](https://twitter.com/andrewn) [Radiodan 
+Neue](https://github.com/andrewn/neue-radio).
+
+<a href="/assets/bedtime.jpg"><img class="alignnone size-large wp-image-714" src="/assets/bedtime.jpg" alt="project bedtime" /></a>
 
 <h2>A Radio 3 "Red Button" prototype</h2>
 
