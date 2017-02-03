@@ -24,6 +24,13 @@ subnav:
 
 # Quick Start
 
+We currently recommend using [Radiodan 
+Neue](https://github.com/andrewn/neue-radio), a browser-based version, 
+which is currently less feature complete but easier to develop with. See 
+the [blogpost](http://radiodan.net/2017/01/03/radiodan-neue.html) for more information.
+
+----
+
 Radiodan is designed to be run on a Raspberry Pi 3, 2 or zero. It doesn't 
 currently run well on a Pi A, B, or B+, although if, like me, you build the 
 card on a B+, the result will run fine on a Zero.

@@ -24,7 +24,7 @@ it run on a laptop before deploying. You can also debug on the Pi too.
 Andrew's also written an implmentation of the physical UI!
 
 We've used it at work for our "Project Bedtime" prototype on a Pi Zero with 
-a Phat DAC, using a wifi access point on a second screen as a remote control.
+a [Phat DAC](https://shop.pimoroni.com/products/phat-dac), using a wifi access point on a second screen as a remote control.
 
 I'll gradually be updating the docs here, but everything is on [Andrew's 
 github page](https://github.com/andrewn/neue-radio/blob/master/INSTALL.MD).
