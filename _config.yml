@@ -5,3 +5,4 @@ description: An (experimental) homebrew, flexible, open source, IP radio
 url: http://radiodan.github.io
 baseurl: / 
 exclude: [vendor]
+future: true
