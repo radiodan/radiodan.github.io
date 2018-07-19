@@ -6,7 +6,7 @@ A github.io blog for Radiodan
 
 # Installation
 
-    git install bundle
+    gem install bundle
     bundle install
 
 # Serve locally
